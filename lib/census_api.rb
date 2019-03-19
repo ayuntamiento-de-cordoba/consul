@@ -19,8 +19,25 @@ class CensusApi
     end
 
     def valid?
-      code = data[:estadoPadron][:codRetorno]
-      return code.present? && ['00', '01'].include? code
+      data[:estadoPadron][:codRetorno]
+      # return code.present? && ['00', '01'].include? code
+    end
+
+    def posta_code
+      data[:detallePadron][:detallePadron][:cPostal]
+    end
+
+    def gender
+      case data[:detallePadron][:detallePadron][:sexo]
+      when "MUJER"
+        "female"
+      else
+        "male"
+      end
+    end
+
+    def date_of_birth
+      data[:detallePadron][:detallePadron][:fechaNacimiento]
     end
 
     private
@@ -34,7 +51,6 @@ class CensusApi
 
     def get_response_body(document_type, document_number)
       if end_point_available?
-
         out_est, err_est, st_est = Open3.capture3("python3", "/home/deploy/aux-soap.py", Rails.application.secrets.census_api_end_point, "obtenerEstadoPadron", "consulConsultas", "8R", document_number)
         out_det, err_det, st_det = Open3.capture3("python3", "/home/deploy/aux-soap.py", Rails.application.secrets.census_api_end_point, "obtenerDetalle", "consulConsultas", "8R", document_number)
 
@@ -48,9 +64,7 @@ class CensusApi
 
         data["detallePadron"] = detalle
         data["estadoPadron"] = estado
-
-        puts data
-        @body = data
+        data
       else
         stubbed_response(document_type, document_number)
       end
@@ -61,7 +75,7 @@ class CensusApi
     end
 
     def stubbed_response(document_type, document_number)
-      if (document_number == "12345678Z" || document_number == "12345678Y") && document_type == "1"
+      if document_number == "12345678" && document_type == "1"
         stubbed_valid_response
       else
         stubbed_invalid_response
@@ -76,21 +90,21 @@ class CensusApi
             "apellido1": "PRUEBA",
             "apellido2": "PRUEBA",
             "barrio": "SAN LORENZO",
-            "bis": null,
-            "bloque": null,
+            "bis": nil,
+            "bloque": nil,
             "carnetPadronal": "0688331",
-            "complementoVia": null,
+            "complementoVia": nil,
             "direccion": "CL MATARRATONES  ",
-            "email": null,
+            "email": nil,
             "entidad": "CORDOBA - CORDOBA",
-            "escalera": null,
+            "escalera": nil,
             "fechaDocumento": "07/03/2019",
             "fechaNacimiento": "01/03/1995",
             "identificador": "99999999R",
             "km": "0000",
-            "movil": null,
+            "movil": nil,
             "municipioNacimiento": "CÓRDOBA",
-            "municipioOd": null,
+            "municipioOd": nil,
             "nacionalidad": "ESPAÑA",
             "nivelEstudios": "GRADUADO ESCOLAR O EQUIVALENTE",
             "nombre": "PRUEBA",
@@ -98,13 +112,13 @@ class CensusApi
             "numero": "0002",
             "ordenFamiliar": "001",
             "piso": "1",
-            "portal": null,
+            "portal": nil,
             "provinciaNacimiento": "CÓRDOBA",
-            "provinciaOd": null,
+            "provinciaOd": nil,
             "puerta": "1",
             "sexo": "MUJER",
-            "siglas": null,
-            "telefono": null,
+            "siglas": nil,
+            "telefono": nil,
             "tipoDocumento": "ALTA POR OMISION",
             "tipoIdentificador": "DNI/NIF",
             "tipoVivienda": "FAMILIAR",
@@ -129,44 +143,44 @@ class CensusApi
       {
         "detallePadron": {
           "detallePadron": {
-            "anioLlegada": null,
-            "apellido1": null,
-            "apellido2": null,
-            "barrio": null,
-            "bis": null,
-            "bloque": null,
-            "carnetPadronal": null,
-            "complementoVia": null,
-            "direccion": null,
+            "anioLlegada": nil,
+            "apellido1": nil,
+            "apellido2": nil,
+            "barrio": nil,
+            "bis": nil,
+            "bloque": nil,
+            "carnetPadronal": nil,
+            "complementoVia": nil,
+            "direccion": nil,
             "email": "No disponible.",
-            "entidad": null,
-            "escalera": null,
-            "fechaDocumento": null,
-            "fechaNacimiento": null,
-            "identificador": null,
-            "km": null,
+            "entidad": nil,
+            "escalera": nil,
+            "fechaDocumento": nil,
+            "fechaNacimiento": nil,
+            "identificador": nil,
+            "km": nil,
             "movil": "No disponible.",
-            "municipioNacimiento": null,
-            "municipioOd": null,
-            "nacionalidad": null,
-            "nivelEstudios": null,
-            "nombre": null,
-            "nombreCompleto": null,
-            "numero": null,
-            "ordenFamiliar": null,
-            "piso": null,
-            "portal": null,
-            "provinciaNacimiento": null,
-            "provinciaOd": null,
-            "puerta": null,
-            "sexo": null,
-            "siglas": null,
+            "municipioNacimiento": nil,
+            "municipioOd": nil,
+            "nacionalidad": nil,
+            "nivelEstudios": nil,
+            "nombre": nil,
+            "nombreCompleto": nil,
+            "numero": nil,
+            "ordenFamiliar": nil,
+            "piso": nil,
+            "portal": nil,
+            "provinciaNacimiento": nil,
+            "provinciaOd": nil,
+            "puerta": nil,
+            "sexo": nil,
+            "siglas": nil,
             "telefono": "No disponible.",
-            "tipoDocumento": null,
-            "tipoIdentificador": null,
-            "tipoVivienda": null,
-            "viaCompleta": null,
-            "cPostal": null
+            "tipoDocumento": nil,
+            "tipoIdentificador": nil,
+            "tipoVivienda": nil,
+            "viaCompleta": nil,
+            "cPostal": nil
           },
           "familiares": [
       
@@ -177,8 +191,12 @@ class CensusApi
           "carnetPadronal": "0000000",
           "codRetorno": "03",
           "desRetorno": "DNI NO EN BASE E HISTORICO",
-          "nombreApellidos": null
+          "nombreApellidos": nil
         }
       }
+    end
+
+    def dni?(document_type)
+      document_type.to_s == "1"
     end
 end
