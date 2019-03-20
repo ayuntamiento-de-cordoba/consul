@@ -67,8 +67,8 @@ class Verification::Residence
     @census_data.date_of_birth
   end
 
-  def posta_code
-    @census_data.posta_code
+  def postal_code
+    @census_data.postal_code
   end
 
   private

@@ -23,7 +23,7 @@ class CensusApi
       # return code.present? && ['00', '01'].include? code
     end
 
-    def posta_code
+    def postal_code
       data[:detallePadron][:detallePadron][:cPostal]
     end
 
