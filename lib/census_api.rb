@@ -19,8 +19,8 @@ class CensusApi
     end
 
     def valid?
-      data[:estadoPadron][:codRetorno]
-      # return code.present? && ['00', '01'].include? code
+      code = data[:estadoPadron][:codRetorno]
+      return code.present? && ['00', '01'].include?(code)
     end
 
     def postal_code
@@ -75,7 +75,7 @@ class CensusApi
     end
 
     def stubbed_response(document_type, document_number)
-      if document_number == "12345678" && document_type == "1"
+      if (document_number == "12345678" || document_number == "12345677" || document_number == "12345676" || document_number == "12345675") && document_type == "1"
         stubbed_valid_response
       else
         stubbed_invalid_response

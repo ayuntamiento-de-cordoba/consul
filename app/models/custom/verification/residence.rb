@@ -15,6 +15,7 @@ class Verification::Residence
   validates :postal_code, length: { is: 5 }
 
   validate :document_number_uniqueness
+  validate :residence_in_cordoba
 
   def initialize(attrs = {})
     self.date_of_birth = parse_date('date_of_birth', attrs)
@@ -31,7 +32,6 @@ class Verification::Residence
     user.update(document_number:       document_number,
                 document_type:         document_type,
                 date_of_birth:         date_of_birth.in_time_zone.to_datetime,
-                # geozone:               geozone,
                 gender:                gender,
                 residence_verified_at: Time.current,
                 verified_at:           Time.current)
@@ -39,6 +39,13 @@ class Verification::Residence
 
   def document_number_uniqueness
     errors.add(:document_number, I18n.t('errors.messages.taken')) if User.active.where(document_number: document_number).any?
+  end
+
+  def residence_in_cordoba
+    unless residency_valid?
+      errors.add(:residence_in_cordoba, false)
+      store_failed_attempt
+    end
   end
 
   def store_failed_attempt
@@ -51,24 +58,12 @@ class Verification::Residence
     )
   end
 
-  # def geozone
-  #   Geozone.where(census_code: district_code).first
-  # end
-
-  # def district_code
-  #   @census_data.district_code
-  # end
-
   def gender
     @census_data.gender
   end
 
   def date_of_birth
     @census_data.date_of_birth
-  end
-
-  def postal_code
-    @census_data.postal_code
   end
 
   private
