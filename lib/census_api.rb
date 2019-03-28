@@ -19,16 +19,16 @@ class CensusApi
     end
 
     def valid?
-      code = data[:estadoPadron][:codRetorno]
+      code = data["estadoPadron"]["codRetorno"]
       return code.present? && ['00', '01'].include?(code)
     end
 
     def postal_code
-      data[:detallePadron][:detallePadron][:cPostal]
+      data["detallePadron"]["detallePadron"]["cPostal"]
     end
 
     def gender
-      case data[:detallePadron][:detallePadron][:sexo]
+      case data["detallePadron"]["detallePadron"]["sexo"]
       when "MUJER"
         "female"
       else
@@ -37,7 +37,7 @@ class CensusApi
     end
 
     def date_of_birth
-      data[:detallePadron][:detallePadron][:fechaNacimiento]
+      data["detallePadron"]["detallePadron"]["fechaNacimiento"]
     end
 
     private
