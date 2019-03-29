@@ -40,6 +40,39 @@ class CensusApi
       data["detallePadron"]["detallePadron"]["fechaNacimiento"]
     end
 
+    def district_code
+      district_01 = ["SAN BASILIO", "CATEDRAL", "CATEDRAL / RIBERA", "CENTRO COMERCIAL", "SANTA MARINA", "SAN LORENZO", "SAN PABLO - SAN ANDRES", "LA MAGADALENA", "SAN PEDRO - SAN FRANCISCO", "RIBERA", "VALLELLANO", "TEJARES", "MOLINOS ALTAS", "SAN CAYETANO", "CERRO DE LA GOLONDRINA"]
+      district_02 = ["CAMPO DE LA VERDAD - MIRAFLORES", "FRAY ALBINO", "SECTO SUR", "POLIGONO DEL GUADALQUIVIR"]
+      district_03 = ["ARCANGEL", "FUENSANTA - SANTUARIO", "CAÑERO", "PARQUE FIDIANA"]
+      district_04 = ["VIÑUELA - RESCATADO", "LEVANTE", "FATIMA"]
+      district_05 = ["ZUMBACON", "VALDEOLLEROS", "SANTA ROSA", "CAMPING", "BARRIO DEL NARANJO", "BRILLANTE"]
+      district_06 = ["HUERTA DE LA REINA", "MORERAS", "MARGARITAS / COLONIA DE LA PAZ", "PARQUE FIGUEROA", "SAN RAFAEL DE LA ALBAIDA", "ELECTROMECANICAS", "PALMERAS", "MIRALBAIDA", "AZAHARA", "ARRUZAFILLA", "SANTA ISABEL"]
+      district_07 = ["CERCADILLA", "CIUDAD JARDIN", "VISTA ALEGRE", "HUERTA DE LA MARQUESA", "PARQUE CRUZ CONDE - CORREGIDOR", "OLIVOS BORRACHOS - LAS DELICIAS"]
+      district_08 = ["ALAMEDA DEL OBISPO", "ALCOLEA", "ARENALES (LOS)", "CANSINOS (LOS)", "CASTILLO DE LA ALBAIDA", "CERRO MURIANO", "ZONA PERIURBANA DE CORDOBA", "ENCINAREJO DE CORDOBA", "ERMITAS (LAS)", "HIGUERON (EL)", "MAJANEQUE", "MEDINA AZAHARA", "MORALES (LOS)", "NUESTRA SEÑORA DE LINARES", "PEDROCHES", "PRAGDENA", "PUENTE VIEJO", "QUEMADAS (LAS)", "SANTA MARIA DE TRASSIERRA", "SANTO DOMINGO", "TORRES CABRERA", "VALCHILLON", "VILLARRUBIA", "SANTA CRUZ"]
+      district_09 = ["EL GRANADAL", "LAS QUEMADAS", "LA TORRECILLA", "CHINALES", "QUINTOS"]
+      neighborhood = data["detallePadron"]["detallePadron"]["barrio"]
+
+      if district_01.include?(neighborhood)
+        return '01'
+      elsif district_02.include?(neighborhood)
+        return '02'
+      elsif district_03.include?(neighborhood)
+        return '03'
+      elsif district_04.include?(neighborhood)
+        return '04'
+      elsif district_05.include?(neighborhood)
+        return '05'
+      elsif district_06.include?(neighborhood)
+        return '06'
+      elsif district_07.include?(neighborhood)
+        return '07'
+      elsif district_08.include?(neighborhood)
+        return '08'
+      elsif district_09.include?(neighborhood)
+        return '09'
+      end
+    end
+
     private
 
       def data

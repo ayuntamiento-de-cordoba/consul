@@ -34,7 +34,8 @@ class Verification::Residence
                 date_of_birth:         date_of_birth.in_time_zone.to_datetime,
                 gender:                gender,
                 residence_verified_at: Time.current,
-                verified_at:           Time.current)
+                verified_at:           Time.current,
+                geozone:               geozone)
   end
 
   def document_number_uniqueness
@@ -58,12 +59,20 @@ class Verification::Residence
     )
   end
 
+  def geozone
+    Geozone.where(census_code: district_code).first
+  end
+
   def gender
     @census_data.gender
   end
 
   def date_of_birth
     @census_data.date_of_birth
+  end
+
+  def district_code
+    @census_data.district_code
   end
 
   private
