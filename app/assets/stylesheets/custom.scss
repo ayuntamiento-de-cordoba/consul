@@ -22,18 +22,17 @@ body.auth-page {
 .top-bar {
     background: #fff !important;
     color: #0a0a0a;
-    }
-  
-    header {
-      background: #fff;
-      }
-  
-   .top-bar .menu > li a {
-       color: #0a0a0a;
-   }
-  
-  .top-bar .menu > li .button {
-      background: $brand;
-      color: #fff;
-  }
-  
+}
+
+header {
+    background: #fff;
+}
+
+.top-bar .menu > li a {
+    color: #0a0a0a;
+}
+
+.top-bar .menu > li .button {
+    background: $brand;
+    color: #fff;
+}
