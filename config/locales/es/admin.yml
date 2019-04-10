@@ -36,7 +36,7 @@ es:
           homepage: Homepage
           debates: Debates
           proposals: Propuestas
-          budgets: Presupuestos participativos
+          budgets: Democracia presupuestaria
           help_page: Página de ayuda
         background_color: Color de fondo
         font_color: Color del texto
@@ -73,7 +73,7 @@ es:
         no_activity: No hay actividad de moderadores.
     budgets:
       index:
-        title: Presupuestos participativos
+        title: Democracia presupuestaria
         new_link: Crear nuevo presupuesto
         filter: Filtro
         filters:
@@ -87,13 +87,13 @@ es:
         table_edit_budget: Editar
         edit_groups: Editar grupos de partidas
         edit_budget: Editar presupuesto
-        no_budgets: "No hay presupuestos participativos."
+        no_budgets: "No hay democracia presupuestaria."
       create:
-        notice: '¡Presupuestos participativos creados con éxito!'
+        notice: '¡Democracia presupuestaria creados con éxito!'
       update:
-        notice: Presupuestos participativos actualizados
+        notice: Democracia presupuestaria actualizados
       edit:
-        title: Editar presupuestos participativos
+        title: Editar democracia presupuestaria
         delete: Eliminar presupuesto
         phase: Fase
         dates: Fechas
@@ -438,13 +438,13 @@ es:
         index:
           create: Nuevo proceso
           delete: Borrar
-          title: Procesos de legislación colaborativa
+          title: Procesos
           filters:
             open: Abiertos
             all: Todos
         new:
           back: Volver
-          title: Crear nuevo proceso de legislación colaborativa
+          title: Crear nuevo proceso
           submit_button: Crear proceso
         proposals:
           select_order: Ordenar por
@@ -588,7 +588,7 @@ es:
       poll_questions: Preguntas
       proposals: Propuestas
       proposals_topics: Temas de propuestas
-      budgets: Presupuestos participativos
+      budgets: Democracia presupuestaria
       geozones: Gestionar distritos
       hidden_comments: Comentarios ocultos
       hidden_debates: Debates ocultos
@@ -642,7 +642,7 @@ es:
       title_settings: Configuración
       title_site_customization: Contenido del sitio
       title_booths: Urnas de votación
-      legislation: Legislación colaborativa
+      legislation: Procesos
       users: Usuarios
     administrators:
       index:
@@ -1198,7 +1198,7 @@ es:
           valuating: En evaluación
           valuation_finished: Evaluación finalizada
           all: Todas
-        title: Propuestas de inversión para presupuestos participativos
+        title: Propuestas de inversión para democracia presupuestaria
         assigned_admin: Administrador asignado
         no_admin_assigned: Sin admin asignado
         no_valuators_assigned: Sin evaluador
@@ -1315,7 +1315,7 @@ es:
           visits: Visitas
           votes: Votos
         spending_proposals_title: Propuestas de inversión
-        budgets_title: Presupuestos participativos
+        budgets_title: Democracia presupuestaria
         visits_title: Visitas
         direct_messages: Mensajes directos
         proposal_notifications: Notificaciones de propuestas

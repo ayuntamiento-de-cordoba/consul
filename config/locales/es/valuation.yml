@@ -4,11 +4,11 @@ es:
       title: Evaluación
     menu:
       title: Evaluación
-      budgets: Presupuestos participativos
+      budgets: Democracia presupuestaria
       spending_proposals: Propuestas de inversión
     budgets:
       index:
-        title: Presupuestos participativos
+        title: Democracia presupuestaria
         filters:
           current: Abiertos
           finished: Terminados
@@ -84,7 +84,7 @@ es:
           valuation_open: Abiertas
           valuating: En evaluación
           valuation_finished: Evaluación finalizada
-        title: Propuestas de inversión para presupuestos participativos
+        title: Propuestas de inversión para democracia presupuestaria
         edit: Editar
       show:
         back: Volver

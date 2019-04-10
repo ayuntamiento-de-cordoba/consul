@@ -10,7 +10,7 @@ es:
       menu:
         debates: "Debates"
         proposals: "Propuestas"
-        budgets: "Presupuestos participativos"
+        budgets: "Democracia presupuestaria"
         polls: "Votaciones"
         other: "Otra información de interés"
         processes: "Procesos legislativos"
@@ -29,11 +29,11 @@ es:
         image_alt: "Botón para apoyar una propuesta"
         figcaption_html: 'Botón para "Apoyar" una propuesta.'
       budgets:
-        title: "Presupuestos participativos"
+        title: "Democracia presupuestaria"
         description: "La sección de %{link} sirve para que la gente decida de manera directa a qué se destina una parte del presupuesto municipal."
-        link: "presupuestos participativos"
+        link: "democracia presupuestaria"
         image_alt: "Diferentes fases de un presupuesto participativo"
-        figcaption_html: 'Fase de "Apoyos" y fase de "Votación" de los presupuestos participativos.'
+        figcaption_html: 'Fase de "Apoyos" y fase de "Votación" de los democracia presupuestaria.'
       polls:
         title: "Votaciones"
         description: "La sección de %{link} se activa cada vez que una propuesta alcanza el 1% de apoyos y pasa a votación o cuando el Ayuntamiento propone un tema para que la gente decida sobre él."
@@ -119,7 +119,7 @@ es:
               page_column: Votaciones
             - 
               key_column: 4
-              page_column: Presupuestos participativos
+              page_column: Democracia presupuestaria
             - 
               key_column: 5
               page_column: Procesos legislativos

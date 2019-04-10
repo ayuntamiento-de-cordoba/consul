@@ -40,23 +40,23 @@ es:
       reviewing_ballots: Votación finalizada
       finished: Resultados
     index:
-      title: Presupuestos participativos
-      empty_budgets: No hay presupuestos participativos.
+      title: Democracia presupuestaria
+      empty_budgets: No hay democracia presupuestaria.
       section_header:
-        icon_alt: Icono de Presupuestos participativos
-        title: Presupuestos participativos
-        help: Ayuda sobre presupuestos participativos
+        icon_alt: Icono de Democracia presupuestaria
+        title: Democracia presupuestaria
+        help: Ayuda sobre democracia presupuestaria
         all_phases: Ver todas las fases
-      all_phases: Fases de los presupuestos participativos
+      all_phases: Fases de los democracia presupuestaria
       map: Proyectos localizables geográficamente
       investment_proyects: Ver lista completa de proyectos de gasto
       unfeasible_investment_proyects: Ver lista de proyectos de gasto inviables
       not_selected_investment_proyects: Ver lista de proyectos de gasto no seleccionados para la votación final
-      finished_budgets: Presupuestos participativos terminados
+      finished_budgets: Democracia presupuestaria terminados
       see_results: Ver resultados
       section_footer:
-        title: Ayuda sobre presupuestos participativos
-        description: Con los presupuestos participativos la ciudadanía decide a qué proyectos va destinada una parte del presupuesto.
+        title: Ayuda sobre democracia presupuestaria
+        description: Con los democracia presupuestaria la ciudadanía decide a qué proyectos va destinada una parte del presupuesto.
       milestones: Seguimiento de proyectos
     investments:
       form:
@@ -70,7 +70,7 @@ es:
         location: "Información adicional de la ubicación"
         map_skip_checkbox: "Este proyecto no tiene una ubicación concreta o no la conozco."
       index:
-        title: Presupuestos participativos
+        title: Democracia presupuestaria
         unfeasible: Proyectos de gasto no viables
         unfeasible_text: "Los proyectos presentados deben cumplir una serie de criterios (legalidad, concreción, ser competencia del Ayuntamiento, no superar el tope del presupuesto) para ser declarados viables y llegar hasta la fase de votación final. Todos los proyectos que no cumplen estos criterios son marcados como inviables y publicados en la siguiente lista, junto con su informe de inviabilidad."
         by_heading: "Proyectos de gasto con ámbito: %{heading}"
@@ -161,7 +161,7 @@ es:
     results:
       link: Resultados
       page_title: "%{budget} - Resultados"
-      heading: "Resultados presupuestos participativos"
+      heading: "Resultados democracia presupuestaria"
       heading_selection_title: "Ámbito de actuación"
       spending_proposal: Título de la propuesta
       ballot_lines_count: Votos
