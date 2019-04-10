@@ -37,7 +37,10 @@ class CensusApi
     end
 
     def date_of_birth
-      data["detallePadron"]["detallePadron"]["fechaNacimiento"]
+      str = data[:detallePadron][:detallePadron][:fechaNacimiento]
+      day, month, year = str.match(/(\d\d?)\D(\d\d?)\D(\d\d\d?\d?)/)[1..3]
+      return nil unless day.present? && month.present? && year.present?
+      Time.zone.local(year.to_i, month.to_i, day.to_i).to_date
     end
 
     def district_code

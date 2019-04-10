@@ -14,6 +14,7 @@ class Verification::Residence
   validates :terms_of_service, acceptance: { allow_nil: false }
   validates :postal_code, length: { is: 5 }
 
+  validate :allowed_age
   validate :document_number_uniqueness
   validate :residence_in_cordoba
 
@@ -31,11 +32,16 @@ class Verification::Residence
 
     user.update(document_number:       document_number,
                 document_type:         document_type,
+                geozone:               geozone,
                 date_of_birth:         date_of_birth.in_time_zone.to_datetime,
                 gender:                gender,
                 residence_verified_at: Time.current,
-                verified_at:           Time.current,
-                geozone:               geozone)
+                verified_at:           Time.current)
+  end
+
+  def allowed_age
+    return if errors[:date_of_birth].any? || Age.in_years(date_of_birth) >= User.minimum_required_age
+    errors.add(:date_of_birth, I18n.t('verification.residence.new.error_not_allowed_age'))
   end
 
   def document_number_uniqueness
@@ -67,10 +73,6 @@ class Verification::Residence
     @census_data.gender
   end
 
-  def date_of_birth
-    @census_data.date_of_birth
-  end
-
   def district_code
     @census_data.district_code
   end
@@ -83,7 +85,8 @@ class Verification::Residence
 
     def residency_valid?
       @census_data.valid? &&
-        @census_data.postal_code == postal_code
+        @census_data.postal_code == postal_code &&
+        @census_data.date_of_birth == date_of_birth
     end
 
     def clean_document_number
