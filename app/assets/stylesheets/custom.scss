@@ -260,8 +260,6 @@ header {
   }
 }
 
-.top-bar {
-}
 header {
     background: #fff;
 }
@@ -285,7 +283,7 @@ header {
     color: #0a0a0a;
 
     @include breakpoint(small only) {
-      color: &text;
+      color: $text;
     }
 
   }
