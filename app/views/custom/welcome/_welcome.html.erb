@@ -31,21 +31,21 @@
 <div class="call-action">
   <div class="row"> 
     <div class="small-12 medium-12 large-4 column">
-      <a href="/conoce_el_proceso " class="call-action-block bg-image">
+      <a href="/proposals_law" class="call-action-block bg-image">
           <%= image_tag("banner_1.jpg") %>
-          <h3 class="col-8">Conoce el proceso</h3>
+          <h3 class="col-8">Procesos Participativos</h3>
       </a>
     </div>
     <div class="small-12 medium-12 large-4 column">
-      <a href="/edicionespasadas" target="_blank" class="call-action-block bg-image">
+      <a href="<%= proposals_path %>" target="_blank" class="call-action-block bg-image">
           <%= image_tag("banner_2.jpg") %>
-          <h3 class="col-8">Ediciones pasadas</h3>
+          <h3 class="col-8"><%= t("layouts.header.proposals") %></h3>
       </a>
     </div>
     <div class="small-12 medium-12 large-4 column">
-      <a href="/estado-proyectos-2018" class="call-action-block bg-image">
+      <a href="<%= debates_path %>" class="call-action-block bg-image">
           <%= image_tag("banner_3.jpg") %>
-          <h3 class="col-8">Estado proyectos</h3>
+          <h3 class="col-8"><%= t("layouts.header.debates") %></h3>
       </a>
     </div>
   </div>
