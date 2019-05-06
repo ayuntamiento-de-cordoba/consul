@@ -544,6 +544,14 @@ position: relative;
   height: auto;
   object-fit: cover;
 }
+.img-logo-25 {
+    max-height: 100px;
+}
+@include breakpoint(small only) {
+  .img-logo-25 {
+    max-height: 70px;
+  }
+}
 
 
 /*************************************************/
