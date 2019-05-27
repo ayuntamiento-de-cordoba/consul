@@ -11,7 +11,7 @@ es:
     email_verification:
       click_here_to_verify: en este enlace
       instructions_2_html: Este email es para verificar tu cuenta con <b>%{document_type} %{document_number}</b>. Si esos no son tus datos, por favor no pulses el enlace anterior e ignora este email.
-      instructions_html: Para terminar de verificar tu cuenta de usuario pulsa %{verification_link}.
+      instructions_html: Para terminar de verificar tu cuenta de usuario/a pulsa %{verification_link}.
       subject: Verifica tu email
       thanks: Muchas gracias.
       title: Verifica tu cuenta con el siguiente enlace
@@ -28,7 +28,7 @@ es:
       sorry: "Sentimos las molestias ocasionadas y volvemos a darte las gracias por tu inestimable participación."
       subject: "Tu propuesta de inversión '%{code}' ha sido marcada como inviable"
     proposal_notification_digest:
-      info: "A continuación te mostramos las nuevas notificaciones que han publicado los autores de las propuestas que estás apoyando en %{org_name}."
+      info: "A continuación te mostramos las nuevas notificaciones que han publicado los/as autores/as de las propuestas que estás apoyando en %{org_name}."
       title: "Notificaciones de propuestas en %{org_name}"
       share: Compartir propuesta
       comment: Comentar propuesta
@@ -46,7 +46,7 @@ es:
       ignore: "Si no has solicitado esta invitación no te preocupes, puedes ignorar este correo."
       text: "¡Gracias por solicitar unirte a %{org}! En unos segundos podrás empezar a participar, sólo tienes que rellenar el siguiente formulario:"
       thanks: "Muchas gracias."
-      title: "Bienvenido a %{org}"
+      title: "Bienvenido/a a %{org}"
       button: Completar registro
       subject: "Invitación a %{org_name}"
     budget_investment_created:

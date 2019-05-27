@@ -5,8 +5,8 @@ es:
     dashboard:
       index:
         title: Presidir mesa de votaciones
-        info: Aquí puedes validar documentos de ciudadanos y guardar los resultados de las urnas
-        no_shifts: No tienes turnos de presidente de mesa asignados hoy.
+        info: Aquí puedes validar documentos de la ciudadanía y guardar los resultados de las urnas
+        no_shifts: No tienes turnos de presidente/a de mesa asignados hoy.
     menu:
       voters: Validar documento y votar
       total_recounts: Recuento total y escrutinio
@@ -44,14 +44,14 @@ es:
     residence:
       flash:
         create: "Documento verificado con el Padrón"
-        not_allowed: "Hoy no tienes turno de presidente de mesa"
+        not_allowed: "Hoy no tienes turno de presidente/a de mesa"
       new:
         title: Validar documento
         document_number: "Número de documento (incluida letra)"
         submit: Validar documento
         error_verifying_census: "El Padrón no pudo verificar este documento."
         form_errors: evitaron verificar este documento
-        no_assignments: "Hoy no tienes turno de presidente de mesa"
+        no_assignments: "Hoy no tienes turno de presidente/a de mesa"
     voters:
       new:
         title: Votaciones

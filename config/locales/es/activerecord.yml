@@ -29,23 +29,23 @@ es:
         one: "Etiqueta"
         other: "Etiquetas"
       user:
-        one: "Usuario"
-        other: "Usuarios"
+        one: "Usuario/a"
+        other: "Usuarios/as"
       moderator:
-        one: "Moderador"
-        other: "Moderadores"
+        one: "Moderador/a"
+        other: "Moderadores/as"
       administrator:
-        one: "Administrador"
-        other: "Administradores"
+        one: "Administrador/a"
+        other: "Administradores/as"
       valuator:
-        one: "Evaluador"
-        other: "Evaluadores"
+        one: "Evaluador/a"
+        other: "Evaluadores/as"
       valuator_group:
-        one: "Grupo de evaluadores"
-        other: "Grupos de evaluadores"
+        one: "Grupo de evaluadores/as"
+        other: "Grupos de evaluadores/as"
       manager:
-        one: "Gestor"
-        other: "Gestores"
+        one: "Gestor/a"
+        other: "Gestores/as"
       newsletter:
         one: "Newsletter"
         other: "Newsletters"
@@ -59,8 +59,8 @@ es:
         one: "urna"
         other: "urnas"
       poll/officer:
-        one: "presidente de mesa"
-        other: "presidentes de mesa"
+        one: "presidente/a de mesa"
+        other: "presidentes/as de mesa"
       proposal:
         one: "Propuesta ciudadana"
         other: "Propuestas ciudadanas"
@@ -126,7 +126,7 @@ es:
         title: "Título"
         description: "Descripción"
         external_url: "Enlace a documentación adicional"
-        administrator_id: "Administrador"
+        administrator_id: "Administrador/a"
         location: "Ubicación (opcional)"
         organization_name: "Si estás proponiendo en nombre de una organización o colectivo, o en nombre de más gente, escribe su nombre"
         image: "Imagen descriptiva del proyecto de gasto"
@@ -152,22 +152,22 @@ es:
         population: "Población"
       comment:
         body: "Comentario"
-        user: "Usuario"
+        user: "Usuario/a"
       debate:
-        author: "Autor"
+        author: "Autor/a"
         description: "Opinión"
         terms_of_service: "Términos de servicio"
         title: "Título"
       proposal:
-        author: "Autor"
+        author: "Autor/a"
         title: "Título"
         question: "Pregunta"
         description: "Descripción"
         terms_of_service: "Términos de servicio"
       user:
-        login: "Email o nombre de usuario"
+        login: "Email o nombre de usuario/a"
         email: "Email"
-        username: "Nombre de usuario"
+        username: "Nombre de usuario/a"
         password_confirmation: "Confirmación de contraseña"
         password: "Contraseña"
         current_password: "Contraseña actual"
@@ -179,7 +179,7 @@ es:
         name: "Nombre de la organización"
         responsible_name: "Persona responsable del colectivo"
       spending_proposal:
-        administrator_id: "Administrador"
+        administrator_id: "Administrador/a"
         association_name: "Nombre de la asociación"
         description: "Descripción"
         external_url: "Enlace a documentación adicional"
@@ -285,12 +285,12 @@ es:
         title: Título
         url: Vídeo externo
       newsletter:
-        segment_recipient: Destinatarios
+        segment_recipient: Destinatarios/as
         subject: Asunto
         from: Enviado por
         body: Contenido del email
       admin_notification:
-        segment_recipient: Destinatarios
+        segment_recipient: Destinatarios/as
         title: Título
         link: Enlace
         body: Texto
@@ -316,7 +316,7 @@ es:
         user:
           attributes:
             email:
-              password_already_set: "Este usuario ya tiene una clave asociada"
+              password_already_set: "Este usuario/a ya tiene una clave asociada"
         debate:
           attributes:
             tag_list:
@@ -333,11 +333,11 @@ es:
         newsletter:
           attributes:
             segment_recipient:
-              invalid: "El usuario del destinatario es inválido"
+              invalid: "El/La usuario/a del/la destinatario/a es inválido"
         admin_notification:
           attributes:
             segment_recipient:
-              invalid: "El usuario del destinatario es inválido"
+              invalid: "El/La usuario/a del/la destinatario/a es inválido"
         map_location:
           attributes:
             map:
@@ -346,7 +346,7 @@ es:
           attributes:
             document_number:
               not_in_census: "Este documento no aparece en el censo"
-              has_voted: "Este usuario ya ha votado"
+              has_voted: "Este/a usuario/a ya ha votado"
         legislation/process:
           attributes:
             end_date:

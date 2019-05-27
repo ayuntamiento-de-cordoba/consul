@@ -50,7 +50,7 @@ es:
         button: "Ver preguntas frecuentes"
         page:
           title: "Preguntas Frecuentes"
-          description: "Utiliza esta página para resolver las Preguntas frecuentes a los usuarios del sitio."
+          description: "Utiliza esta página para resolver las Preguntas frecuentes a los/as usuarios/as del sitio."
           faq_1_title: "Pregunta 1"
           faq_1_description: "Este es un ejemplo para la descripción de la pregunta uno."
       other:
@@ -72,7 +72,7 @@ es:
         - 
           text: La navegación por la informacion disponible en el Portal de Gobierno Abierto es anónima.
         - 
-          text: Para utilizar los servicios contenidos en el Portal de Gobierno Abierto el usuario deberá darse de alta y proporcionar previamente los datos de carácter personal segun la informacion especifica que consta en cada tipo de alta.
+          text: Para utilizar los servicios contenidos en el Portal de Gobierno Abierto el/la autor/a deberá darse de alta y proporcionar previamente los datos de carácter personal segun la informacion especifica que consta en cada tipo de alta.
         - 
           text: 'Los datos aportados serán incorporados y tratados por el Ayuntamiento de acuerdo con la descripción del fichero siguiente:'
         - 
@@ -91,12 +91,12 @@ es:
       description: |-
         La accesibilidad web se refiere a la posibilidad de acceso a la web y a sus contenidos por todas las personas, independientemente de las discapacidades (físicas, intelectuales o técnicas) que puedan presentar o de las que se deriven del contexto de uso (tecnológicas o ambientales).
 
-        Cuando los sitios web están diseñados pensando en la accesibilidad, todos los usuarios pueden acceder en condiciones de igualdad a los contenidos, por ejemplo:
+        Cuando los sitios web están diseñados pensando en la accesibilidad, todos los/as usuarios/as pueden acceder en condiciones de igualdad a los contenidos, por ejemplo:
       examples:
-        - Proporcionando un texto alternativo a las imágenes, los usuarios invidentes o con problemas de visión pueden utilizar lectores especiales para acceder a la información.
-        - Cuando los vídeos disponen de subtítulos, los usuarios con dificultades auditivas pueden entenderlos plenamente.
-        - Si los contenidos están escritos en un lenguaje sencillo e ilustrados, los usuarios con problemas de aprendizaje están en mejores condiciones de entenderlos.
-        - Si el usuario tiene problemas de movilidad y le cuesta usar el ratón, las alternativas con el teclado le ayudan en la navegación.
+        - Proporcionando un texto alternativo a las imágenes, los/as usuarios/as invidentes o con problemas de visión pueden utilizar lectores especiales para acceder a la información.
+        - Cuando los vídeos disponen de subtítulos, los/as usuarios/as con dificultades auditivas pueden entenderlos plenamente.
+        - Si los contenidos están escritos en un lenguaje sencillo e ilustrados, los/as usuarios/as con problemas de aprendizaje están en mejores condiciones de entenderlos.
+        - Si el/la usuario/a tiene problemas de movilidad y le cuesta usar el ratón, las alternativas con el teclado le ayudan en la navegación.
       keyboard_shortcuts:
         title: '"Atajos" de teclado'
         navigation_table:
@@ -147,7 +147,7 @@ es:
       textsize:
         title: Tamaño del texto
         browser_settings_table:
-          description: El diseño accesible de este sitio web permite que el usuario pueda elegir el tamaño del texto que le convenga. Esta acción puede llevarse a cabo de diferentes maneras según el navegador que se utilice.
+          description: El diseño accesible de este sitio web permite que el/la usuario/a pueda elegir el tamaño del texto que le convenga. Esta acción puede llevarse a cabo de diferentes maneras según el navegador que se utilice.
           browser_header: Navegador
           action_header: Acción a realizar
           rows:

@@ -5,11 +5,11 @@ es:
         reset_password_email: Restablecer contraseña via email
         reset_password_manually: Restablecer contraseña manualmente
       alert:
-        unverified_user: Solo se pueden editar cuentas de usuarios verificados
+        unverified_user: Solo se pueden editar cuentas de usuarios/as verificados/as
       show:
-        title: Cuenta de usuario
+        title: Cuenta de usuario/a
       edit:
-        title: 'Editar cuenta de usuario: Restablecer contraseña'
+        title: 'Editar cuenta de usuario/a: Restablecer contraseña'
         back: Volver
         password:
           password: Contraseña
@@ -21,41 +21,41 @@ es:
           print: Imprimir contraseña
           print_help: Podrás imprimir la contraseña cuando se haya guardado.
     account_info:
-      change_user: Cambiar usuario
+      change_user: Cambiar usuario/a
       document_number_label: 'Número de documento:'
       document_type_label: 'Tipo de documento:'
       email_label: 'Email:'
-      identified_label: 'Identificado como:'
-      username_label: 'Usuario:'
+      identified_label: 'Identificado/a como:'
+      username_label: 'Usuario/a:'
     check: Comprobar documento
     dashboard:
       index:
         title: Gestión
-        info: Desde aquí puedes gestionar usuarios a través de las acciones listadas en el menú de la izquierda.
+        info: Desde aquí puedes gestionar usuarios/as a través de las acciones listadas en el menú de la izquierda.
     document_number: Número de documento
     document_type_label: Tipo de documento
     document_verifications:
-      already_verified: Esta cuenta de usuario ya está verificada.
-      has_no_account_html: Para crear un usuario entre en %{link} y haga clic en la opción <b>'Registrarse'</b> en la parte superior derecha de la pantalla.
+      already_verified: Esta cuenta de usuario/a ya está verificada.
+      has_no_account_html: Para crear un usuario/a entre en %{link} y haga clic en la opción <b>'Registrarse'</b> en la parte superior derecha de la pantalla.
       link: CONSUL
-      in_census_has_following_permissions: 'Este usuario puede participar en el Portal de Gobierno Abierto con las siguientes posibilidades:'
+      in_census_has_following_permissions: 'Este usuario/a puede participar en el Portal de Gobierno Abierto con las siguientes posibilidades:'
       not_in_census: Este documento no está registrado.
       not_in_census_info: 'Las personas no empadronadas pueden participar en el Portal de Gobierno Abierto con las siguientes posibilidades:'
       please_check_account_data: Compruebe que los datos anteriores son correctos para proceder a verificar la cuenta completamente.
-      title: Gestión de usuarios
+      title: Gestión de usuarios/as
       under_age: "No tienes edad suficiente para verificar tu cuenta."
-      verify: Verificar usuario
+      verify: Verificar usuario/a
     email_label: Email
     date_of_birth: Fecha de nacimiento
     email_verifications:
-      already_verified: Esta cuenta de usuario ya está verificada.
+      already_verified: Esta cuenta de usuario/a ya está verificada.
       choose_options: 'Elige una de las opciones siguientes:'
-      document_found_in_census: Este documento está en el registro del padrón municipal, pero todavía no tiene una cuenta de usuario asociada.
-      document_mismatch: 'Ese email corresponde a un usuario que ya tiene asociado el documento %{document_number}(%{document_type})'
+      document_found_in_census: Este documento está en el registro del padrón municipal, pero todavía no tiene una cuenta de usuario/a asociada.
+      document_mismatch: 'Ese email corresponde a un usuario/a que ya tiene asociado el documento %{document_number}(%{document_type})'
       email_placeholder: Introduce el email de registro
-      email_sent_instructions: Para terminar de verificar esta cuenta es necesario que haga clic en el enlace que le hemos enviado a la dirección de correo que figura arriba. Este paso es necesario para confirmar que dicha cuenta de usuario es suya.
-      if_existing_account: Si la persona ya ha creado una cuenta de usuario en la web
-      if_no_existing_account: Si la persona todavía no ha creado una cuenta de usuario en la web
+      email_sent_instructions: Para terminar de verificar esta cuenta es necesario que haga clic en el enlace que le hemos enviado a la dirección de correo que figura arriba. Este paso es necesario para confirmar que dicha cuenta de usuario/a es suya.
+      if_existing_account: Si la persona ya ha creado una cuenta de usuario/a en la web
+      if_no_existing_account: Si la persona todavía no ha creado una cuenta de usuario/a en la web
       introduce_email: 'Introduce el email con el que creó la cuenta:'
       send_email: Enviar email de verificación
     menu:
@@ -70,7 +70,7 @@ es:
       support_budget_investments: Apoyar proyectos de gasto
       users: Gestión de usuarios
       user_invites: Enviar invitaciones
-      select_user: Seleccionar usuario
+      select_user: Seleccionar usuario/a
     permissions:
       create_proposals: Crear nuevas propuestas
       debates: Participar en debates
@@ -84,7 +84,7 @@ es:
     print_info: Imprimir esta información
     proposals:
       alert:
-        unverified_user: Usuario no verificado
+        unverified_user: Usuario/a no verificado
       create_proposal: Crear propuesta
       print:
         print_button: Imprimir
@@ -100,7 +100,7 @@ es:
       no_budgets: No hay presupuestos participativos activos.
     budget_investments:
       alert:
-        unverified_user: Usuario no verificado
+        unverified_user: Usuario/a no verificado
       create: Crear nuevo proyecto
       filters:
         heading: Concepto
@@ -112,7 +112,7 @@ es:
         other: " que contienen '%{search_term}'"
     spending_proposals:
       alert:
-        unverified_user: Usuario no verificado
+        unverified_user: Usuario/a no verificado
       create: Crear una propuesta de gasto
       filters:
         unfeasible: Propuestas de inversión no viables
@@ -124,19 +124,19 @@ es:
         other: " que contienen '%{search_term}'"
     sessions:
       signed_out: Has cerrado la sesión correctamente.
-      signed_out_managed_user: Se ha cerrado correctamente la sesión del usuario.
-    username_label: Nombre de usuario
+      signed_out_managed_user: Se ha cerrado correctamente la sesión.
+    username_label: Nombre de usuario/a
     users:
-      create_user: Crear nueva cuenta de usuario
-      create_user_info: Procedemos a crear un usuario con la siguiente información
-      create_user_submit: Crear usuario
-      create_user_success_html: Hemos enviado un correo electrónico a <b>%{email}</b> para verificar que es suya. El correo enviado contiene un link que el usuario deberá pulsar. Entonces podrá seleccionar una clave de acceso, y entrar en la web de participación.
-      autogenerated_password_html: "Se ha asignado la contraseña <b>%{password}</b> a este usuario. Puede modificarla desde el apartado 'Mi cuenta' de la web."
+      create_user: Crear nueva cuenta de usuario/a
+      create_user_info: Procedemos a crear un usuario/a con la siguiente información
+      create_user_submit: Crear usuario/a
+      create_user_success_html: Hemos enviado un correo electrónico a <b>%{email}</b> para verificar que es suya. El correo enviado contiene un link que el/la autor/a deberá pulsar. Entonces podrá seleccionar una clave de acceso, y entrar en la web de participación.
+      autogenerated_password_html: "Se ha asignado la contraseña <b>%{password}</b> a este usuario/a. Puede modificarla desde el apartado 'Mi cuenta' de la web."
       email_optional_label: Email (recomendado pero opcional)
-      erased_notice: Cuenta de usuario borrada.
+      erased_notice: Cuenta de usuario/a borrada.
       erased_by_manager: "Borrada por el manager: %{manager}"
       erase_account_link: Borrar cuenta
-      erase_account_confirm: '¿Seguro que quieres borrar a este usuario? Esta acción no se puede deshacer'
+      erase_account_confirm: '¿Seguro que quieres borrar a este usuario/a? Esta acción no se puede deshacer'
       erase_warning: Esta acción no se puede deshacer. Por favor asegúrese de que quiere eliminar esta cuenta.
       erase_submit: Borrar cuenta
     user_invites:

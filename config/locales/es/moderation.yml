@@ -2,8 +2,8 @@ es:
   moderation:
     comments:
       index:
-        block_authors: Bloquear autores
-        confirm: '¿Estás seguro?'
+        block_authors: Bloquear autores/as
+        confirm: '¿Estás seguro/a?'
         filter: Filtro
         filters:
           all: Todos
@@ -24,8 +24,8 @@ es:
         title: Moderar
     debates:
       index:
-        block_authors: Bloquear autores
-        confirm: '¿Estás seguro?'
+        block_authors: Bloquear autores/as
+        confirm: '¿Estás seguro/a?'
         filter: Filtrar
         filters:
           all: Todos
@@ -52,8 +52,8 @@ es:
       users: Bloquear usuarios
     proposals:
       index:
-        block_authors: Bloquear autores
-        confirm: '¿Estás seguro?'
+        block_authors: Bloquear autores/as
+        confirm: '¿Estás seguro/a?'
         filter: Filtro
         filters:
           all: Todas
@@ -71,8 +71,8 @@ es:
         title: Propuestas
     budget_investments:
       index:
-        block_authors: Bloquear autores
-        confirm: '¿Estás seguro?'
+        block_authors: Bloquear autores/as
+        confirm: '¿Estás seguro/a?'
         filter: Filtro
         filters:
           all: Todos
@@ -90,8 +90,8 @@ es:
         title: Proyectos de gasto
     proposal_notifications:
       index:
-        block_authors: Bloquear autores
-        confirm: '¿Estás seguro?'
+        block_authors: Bloquear autores/as
+        confirm: '¿Estás seguro/a?'
         filter: Filtro
         filters:
           all: Todas
@@ -109,9 +109,9 @@ es:
         title: Notificaciones de propuestas
     users:
       index:
-        hidden: Bloqueado
+        hidden: Bloqueado/a
         hide: Bloquear
         search: Buscar
         search_placeholder: email o nombre de usuario
         title: Bloquear usuarios
-      notice_hide: Usuario bloqueado. Se han ocultado todos sus debates y comentarios.
+      notice_hide: Usuario/a bloqueado/a. Se han ocultado todos sus debates y comentarios.

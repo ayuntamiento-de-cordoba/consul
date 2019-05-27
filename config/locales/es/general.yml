@@ -19,7 +19,7 @@ es:
       subscription_to_website_newsletter_label: Recibir emails con información interesante sobre la web
       email_on_direct_message_label: Recibir emails con mensajes privados
       email_digest_label: Recibir resumen de notificaciones sobre propuestas
-      official_position_badge_label: Mostrar etiqueta de tipo de usuario
+      official_position_badge_label: Mostrar etiqueta de tipo de usuario/a
       recommendations: Recomendaciones
       show_debates_recommendations: Mostrar recomendaciones en el listado de debates
       show_proposals_recommendations: Mostrar recomendaciones en el listado de propuestas
@@ -30,9 +30,9 @@ es:
       user_permission_support_proposal: Apoyar propuestas*
       user_permission_title: Participación
       user_permission_verify: Para poder realizar todas las acciones, verifica tu cuenta.
-      user_permission_verify_info: "* Sólo usuarios empadronados."
+      user_permission_verify_info: "* Sólo usuarios/a empadronados/as."
       user_permission_votes: Participar en las votaciones finales*
-      username_label: Nombre de usuario
+      username_label: Nombre de usuario/a
       verified_account: Cuenta verificada
       verify_my_account: Verificar mi cuenta
   application:
@@ -43,22 +43,22 @@ es:
     verified_only: Para participar %{verify_account}
     verify_account: verifica tu cuenta
     comment:
-      admin: Administrador
-      author: Autor
+      admin: Administrador/a
+      author: Autor/a
       deleted: Este comentario ha sido eliminado
-      moderator: Moderador
+      moderator: Moderador/a
       responses:
         zero: Sin respuestas
         one: 1 Respuesta
         other: "%{count} Respuestas"
-      user_deleted: Usuario eliminado
+      user_deleted: Usuario/a eliminado/a
       votes:
         zero: Sin votos
         one: 1 voto
         other: "%{count} votos"
     form:
-      comment_as_admin: Comentar como administrador
-      comment_as_moderator: Comentar como moderador
+      comment_as_admin: Comentar como administrador/a
+      comment_as_moderator: Comentar como moderador/a
       leave_comment: Deja tu comentario
     orders:
       most_voted: Más votados
@@ -135,7 +135,7 @@ es:
         title: Ayuda sobre los debates
         description: Inicia un debate para compartir puntos de vista con otras personas sobre los temas que te preocupan.
         help_text_1: "El espacio de debates ciudadanos está dirigido a que cualquier persona pueda exponer temas que le preocupan y sobre los que quiera compartir puntos de vista con otras personas."
-        help_text_2: 'Para abrir un debate es necesario registrarse en %{org}. Los usuarios ya registrados también pueden comentar los debates abiertos y valorarlos con los botones de "Estoy de acuerdo" o "No estoy de acuerdo" que se encuentran en cada uno de ellos.'
+        help_text_2: 'Para abrir un debate es necesario registrarse en %{org}. Los/as usuarios/as ya registrados/as también pueden comentar los debates abiertos y valorarlos con los botones de "Estoy de acuerdo" o "No estoy de acuerdo" que se encuentran en cada uno de ellos.'
     new:
       form:
         submit_button: Empieza un debate
@@ -149,14 +149,14 @@ es:
       recommendations_title: Recomendaciones para crear un debate
       start_new: Empezar un debate
     show:
-      author_deleted: Usuario eliminado
+      author_deleted: Usuario/a eliminado/a
       comments:
         zero: Sin comentarios
         one: 1 Comentario
         other: "%{count} Comentarios"
       comments_title: Comentarios
       edit_debate_link: Editar debate
-      flag: Este debate ha sido marcado como inapropiado por varios usuarios.
+      flag: Este debate ha sido marcado como inapropiado por varios/as usuarios/as.
       login_to_comment: Necesitas %{signin} o %{signup} para comentar.
       share: Compartir
       author: Autor
@@ -165,7 +165,7 @@ es:
         submit_button: Guardar cambios
   errors:
     messages:
-      user_not_found: Usuario no encontrado
+      user_not_found: Usuario/a no encontrado/a
       invalid_date_range: "El rango de fechas no es válido"
   form:
     accept_terms: Acepto la %{policy} y las %{conditions}
@@ -203,7 +203,7 @@ es:
     footer:
       accessibility: Accesibilidad
       conditions: Condiciones de uso
-      consul: aplicación CONSUL
+      consul: Portal de Participación
       consul_url: https://github.com/consul/consul
       contact_us: Para asistencia técnica entra en
       copyright: Portal de Participación, %{year}
@@ -225,7 +225,7 @@ es:
       management: Gestión
       moderation: Moderar
       valuation: Evaluación
-      officing: Presidentes de mesa
+      officing: Presidentes/as de mesa
       help: Ayuda
       my_account_link: Mi cuenta
       my_activity_link: Mi actividad
@@ -276,7 +276,7 @@ es:
       name: Facebook
     finish_signup:
       title: "Detalles adicionales de tu cuenta"
-      username_warning: "Debido a que hemos cambiado la forma en la que nos conectamos con redes sociales y es posible que tu nombre de usuario aparezca como 'ya en uso', incluso si antes podías acceder con él. Si es tu caso, por favor elige un nombre de usuario distinto."
+      username_warning: "Debido a que hemos cambiado la forma en la que nos conectamos con redes sociales y es posible que tu nombre de usuario aparezca como 'ya en uso', incluso si antes podías acceder con él. Si es tu caso, por favor elige un nombre de usuario/a distinto."
     google_oauth2:
       sign_in: Entra con Google
       sign_up: Regístrate con Google
@@ -299,7 +299,7 @@ es:
       show_link: Ver propuesta
     retire_form:
       title: Retirar propuesta
-      warning: "Si sigues adelante tu propuesta podrá seguir recibiendo apoyos, pero dejará de ser listada en la lista principal, y aparecerá un mensaje para todos los usuarios avisándoles de que el autor considera que esta propuesta no debe seguir recogiendo apoyos."
+      warning: "Si sigues adelante tu propuesta podrá seguir recibiendo apoyos, pero dejará de ser listada en la lista principal, y aparecerá un mensaje para todos los/as usuarios/as avisándoles de que el/la autor/a considera que esta propuesta no debe seguir recogiendo apoyos."
       retired_reason_label: Razón por la que se retira la propuesta
       retired_reason_blank: Selecciona una opción
       retired_explanation_label: Explicación
@@ -380,7 +380,7 @@ es:
         help: Ayuda sobre las propuestas
       section_footer:
         title: Ayuda sobre las propuestas
-        description: Las propuestas ciudadanas son una oportunidad para que los vecinos y colectivos decidan directamente cómo quieren que sea su ciudad, después de conseguir los apoyos suficientes y de someterse a votación ciudadana.
+        description: Las propuestas ciudadanas son una oportunidad para que los/as vecinos/as y colectivos decidan directamente cómo quieren que sea su ciudad, después de conseguir los apoyos suficientes y de someterse a votación ciudadana.
     new:
       form:
         submit_button: Crear propuesta
@@ -420,7 +420,7 @@ es:
       archived: "Esta propuesta ha sido archivada y ya no puede recoger apoyos."
       successful: "Esta propuesta ha alcanzado los apoyos necesarios."
     show:
-      author_deleted: Usuario eliminado
+      author_deleted: Usuario/a eliminado/a
       code: 'Código de la propuesta:'
       comments:
         zero: Sin comentarios
@@ -428,13 +428,13 @@ es:
         other: "%{count} Comentarios"
       comments_tab: Comentarios
       edit_proposal_link: Editar propuesta
-      flag: Esta propuesta ha sido marcada como inapropiada por varios usuarios.
+      flag: Esta propuesta ha sido marcada como inapropiada por varios/as usuarios/as.
       login_to_comment: Necesitas %{signin} o %{signup} para comentar.
       notifications_tab: Notificaciones
       milestones_tab: Seguimiento
-      retired_warning: "El autor de esta propuesta considera que ya no debe seguir recogiendo apoyos."
+      retired_warning: "El/La autor/a de esta propuesta considera que ya no debe seguir recogiendo apoyos."
       retired_warning_link_to_explanation: Revisa su explicación antes de apoyarla.
-      retired: Propuesta retirada por el autor
+      retired: Propuesta retirada por el/la autor/a
       share: Compartir
       send_notification: Enviar notificación
       no_notifications: "Esta propuesta no tiene notificaciones."
@@ -522,7 +522,7 @@ es:
       title_label: "Título"
       body_label: "Mensaje"
       submit_button: "Enviar mensaje"
-      info_about_receivers_html: "Este mensaje se enviará a <strong>%{count} usuarios</strong> y se publicará en %{proposal_page}.<br> El mensaje no se enviará inmediatamente, los usuarios recibirán periódicamente un email con todas las notificaciones de propuestas."
+      info_about_receivers_html: "Este mensaje se enviará a <strong>%{count} usuarios/as</strong> y se publicará en %{proposal_page}.<br> El mensaje no se enviará inmediatamente, los/as usuarios/as recibirán periódicamente un email con todas las notificaciones de propuestas."
       proposal_page: "la página de la propuesta"
     show:
       back: "Volver a mi actividad"
@@ -551,7 +551,7 @@ es:
       title: 'Búsqueda avanzada'
       to: 'Hasta'
     author_info:
-      author_deleted: Usuario eliminado
+      author_deleted: Usuario/a eliminado/a
     back: Volver
     check: Seleccionar
     check_all: Todos
@@ -665,7 +665,7 @@ es:
       recommendations_title: Cómo crear una propuesta de gasto
       start_new: Crear una propuesta de gasto
     show:
-      author_deleted: Usuario eliminado
+      author_deleted: Usuario/a eliminado/a
       code: 'Código de la propuesta:'
       share: Compartir
     wrong_price_format: Solo puede incluir caracteres numéricos
@@ -688,8 +688,8 @@ es:
       debate_votes: Votos en debates
       comment_votes: Votos en comentarios
       votes: Votos
-      verified_users: Usuarios verificados
-      unverified_users: Usuarios sin verificar
+      verified_users: Usuarios/as verificados/as
+      unverified_users: Usuarios/as sin verificar
   unauthorized:
     default: No tienes permiso para acceder a esta página.
     manage:
@@ -698,7 +698,7 @@ es:
     direct_messages:
       new:
         body_label: Mensaje
-        direct_messages_bloqued: "Este usuario ha decidido no recibir mensajes privados"
+        direct_messages_bloqued: "Este/a usuario/a ha decidido no recibir mensajes privados"
         submit_button: Enviar mensaje
         title: Enviar mensaje privado a %{receiver}
         title_label: Título
@@ -736,8 +736,8 @@ es:
           one: 1 Siguiendo
           other: "%{count} Siguiendo"
       no_activity: Usuario sin actividad pública
-      no_private_messages: "Este usuario no acepta mensajes privados."
-      private_activity: Este usuario ha decidido mantener en privado su lista de actividades.
+      no_private_messages: "Este/a usuario/a no acepta mensajes privados."
+      private_activity: Este/a usuario/a ha decidido mantener en privado su lista de actividades.
       send_private_message: "Enviar un mensaje privado"
       delete_alert: "¿Estás seguro de que deseas borrar tu proyecto de gasto? Esta acción no se puede deshacer"
     proposals:
@@ -755,17 +755,17 @@ es:
     signup: registrarte
     supports: Apoyos
     unauthenticated: Necesitas %{signin} o %{signup} para continuar.
-    verified_only: Las propuestas sólo pueden ser votadas por usuarios verificados, %{verify_account}.
+    verified_only: Las propuestas sólo pueden ser votadas por usuarios/as verificados/as, %{verify_account}.
     verify_account: verifica tu cuenta
     spending_proposals:
       not_logged_in: Necesitas %{signin} o %{signup} para continuar.
-      not_verified: Las propuestas de inversión sólo pueden ser apoyadas por usuarios verificados, %{verify_account}.
+      not_verified: Las propuestas de inversión sólo pueden ser apoyadas por usuarios/as verificados/as, %{verify_account}.
       organization: Las organizaciones no pueden votar.
       unfeasible: No se pueden votar propuestas inviables.
       not_voting_allowed: El periodo de votación está cerrado.
     budget_investments:
       not_logged_in: Necesitas %{signin} o %{signup} para continuar.
-      not_verified: Los proyectos de gasto sólo pueden ser apoyadas por usuarios verificados, %{verify_account}.
+      not_verified: Los proyectos de gasto sólo pueden ser apoyadas por usuarios/as verificados/as, %{verify_account}.
       organization: Las organizaciones no pueden votar.
       unfeasible: No se pueden votar propuestas inviables.
       not_voting_allowed: El periodo de votación está cerrado.
@@ -810,7 +810,7 @@ es:
       user_permission_proposal: Crear nuevas propuestas
       user_permission_support_proposal: Apoyar propuestas*
       user_permission_verify: Para poder realizar todas las acciones, verifica tu cuenta.
-      user_permission_verify_info: "* Sólo usuarios empadronados."
+      user_permission_verify_info: "* Sólo usuarios/as empadronados/as."
       user_permission_verify_my_account: Verificar mi cuenta
       user_permission_votes: Participar en las votaciones finales*
   invisible_captcha:

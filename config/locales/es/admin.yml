@@ -4,10 +4,10 @@ es:
       title: Administración
     actions:
       actions: Acciones
-      confirm: '¿Estás seguro?'
+      confirm: '¿Estás seguro/a?'
       confirm_hide: Confirmar moderación
       hide: Ocultar
-      hide_author: Bloquear al autor
+      hide_author: Bloquear al/la autor/a
       restore: Volver a mostrar
       mark_featured: Destacar
       unmark_featured: Quitar destacado
@@ -55,22 +55,22 @@ es:
       show:
         action: Acción
         actions:
-          block: Bloqueado
-          hide: Ocultado
-          restore: Restaurado
-        by: Moderado por
+          block: Bloqueado/a
+          hide: Ocultado/a
+          restore: Restaurado/a
+        by: Moderado/a por
         content: Contenido
         filter: Mostrar
         filters:
-          all: Todos
+          all: Todos/as
           on_comments: Comentarios
           on_debates: Debates
           on_proposals: Propuestas
-          on_users: Usuarios
+          on_users: Usuarios/as
           on_system_emails: Emails del sistema
-        title: Actividad de moderadores
+        title: Actividad de moderadores/as
         type: Tipo
-        no_activity: No hay actividad de moderadores.
+        no_activity: No hay actividad de moderadores/as.
     budgets:
       index:
         title: Democracia presupuestaria
@@ -116,7 +116,7 @@ es:
       headings_name: "Partidas"
       headings_edit: "Editar Partidas"
       headings_manage: "Gestionar partidas"
-      max_votable_headings: "Máximo número de partidas en que un usuario puede votar"
+      max_votable_headings: "Máximo número de partidas en que un/a usuario/a puede votar"
       no_groups: "No hay grupos."
       amount:
         one: "Hay 1 grupo de partidas presupuestarias"
@@ -177,15 +177,15 @@ es:
     budget_investments:
       index:
         heading_filter_all: Todas las partidas
-        administrator_filter_all: Todos los administradores
-        valuator_filter_all: Todos los evaluadores
+        administrator_filter_all: Todos/as los/as administradores/as
+        valuator_filter_all: Todos/as los/as evaluadores/as
         tags_filter_all: Todas las etiquetas
         advanced_filters: Filtros avanzados
         placeholder: Buscar proyectos
         filters:
           all: Todos
-          without_admin: Sin administrador
-          without_valuator: Sin evaluador
+          without_admin: Sin administrador/a
+          without_valuator: Sin evaluador/a
           under_valuation: En evaluación
           valuation_finished: Evaluación finalizada
           feasible: Viables
@@ -201,35 +201,35 @@ es:
         download_current_selection: "Descargar selección actual"
         no_budget_investments: "No hay proyectos de gasto."
         title: Proyectos de gasto
-        assigned_admin: Administrador asignado
-        no_admin_assigned: Sin admin asignado
-        no_valuators_assigned: Sin evaluador
+        assigned_admin: Administrador/a asignado/a
+        no_admin_assigned: Sin Administrador/a asignado/a
+        no_valuators_assigned: Sin evaluador/a
         no_valuation_groups: Sin grupos evaluadores
         feasibility:
           feasible: "Viable (%{price})"
           unfeasible: "Inviable"
           undecided: "Sin decidir"
-        selected: "Seleccionado"
+        selected: "Seleccionado/a"
         select: "Seleccionar"
         list:
           id: ID
           title: Título
           supports: Apoyos
-          admin: Administrador
-          valuator: Evaluador
+          admin: Administrador/a
+          valuator: Evaluador/a
           valuation_group: Grupos evaluadores
           geozone: Ámbito de actuación
           feasibility: Viabilidad
           valuation_finished: Ev. Fin.
-          selected: Seleccionado
-          visible_to_valuators: Mostrar a evaluadores
-          author_username: Usuario autor
+          selected: Seleccionado/a
+          visible_to_valuators: Mostrar a evaluadores/as
+          author_username: Usuario/a autor/a
           incompatible: Incompatible
         cannot_calculate_winners: El presupuesto debe estar en las fases "Votación final", "Votación finalizada" o "Resultados" para poder calcular las propuestas ganadoras
         see_results: "Ver resultados"
       show:
-        assigned_admin: Administrador asignado
-        assigned_valuators: Evaluadores asignados
+        assigned_admin: Administrador/a asignado/a
+        assigned_valuators: Evaluadores/as asignados/as
         classification: Clasificación
         info: "%{budget_name} - Grupo: %{group_name} - Proyecto de gasto %{id}"
         edit: Editar
@@ -241,7 +241,7 @@ es:
         dossier: Informe
         edit_dossier: Editar informe
         tags: Etiquetas
-        user_tags: Etiquetas del usuario
+        user_tags: Etiquetas del/la usuario/a
         undefined: Sin definir
         compatibility:
           title: Compatibilidad
@@ -249,10 +249,10 @@ es:
           "false": Compatible
         selection:
           title: Selección
-          "true": Seleccionado
+          "true": Seleccionado/a
           "false": No seleccionado
         winner:
-          title: Ganador
+          title: Ganador/a
           "true": "Si"
           "false": "No"
         image: "Imagen"
@@ -365,7 +365,7 @@ es:
       index:
         back: Volver a %{org}
         title: Administración
-        description: Bienvenido al panel de administración de %{org}.
+        description: Bienvenido/a al panel de administración de %{org}.
     debates:
       index:
         filter: Filtro
@@ -384,12 +384,12 @@ es:
           without_confirmed_hide: Pendientes
         title: Usuarios bloqueados
         user: Usuario
-        no_hidden_users: No hay usuarios bloqueados.
+        no_hidden_users: No hay usuarios/as bloqueados/as.
       show:
         email: 'Email:'
         hidden_at: 'Bloqueado:'
         registered_at: 'Fecha de alta:'
-        title: Actividad del usuario (%{user})
+        title: Actividad del/la usuario/a (%{user})
     hidden_budget_investments:
       index:
         filter: Filtro
@@ -480,7 +480,7 @@ es:
           selected: Seleccionada
         form:
           custom_categories: Categorías
-          custom_categories_description: Categorías que el usuario puede seleccionar al crear la propuesta.
+          custom_categories_description: Categorías que el/la usuario/a puede seleccionar al crear la propuesta.
           custom_categories_placeholder: Escribe las etiquetas que desees separadas por una coma (,) y entrecomilladas ("")
       draft_versions:
         create:
@@ -572,17 +572,17 @@ es:
           title: Seguimiento
     managers:
       index:
-        title: Gestores
+        title: Gestores/as
         name: Nombre
         email: Email
-        no_managers: No hay gestores.
+        no_managers: No hay gestores/as.
       manager:
-        add: Añadir como gestor
+        add: Añadir como gestor/a
         delete: Borrar
       search:
-        title: 'Gestores: Búsqueda de usuarios'
+        title: 'Gestores: Búsqueda de usuarios/as'
     menu:
-      activity: Actividad de moderadores
+      activity: Actividad de moderadores/as
       admin: Menú de administración
       banner: Gestionar banners
       poll_questions: Preguntas
@@ -595,11 +595,11 @@ es:
       hidden_proposals: Propuestas ocultas
       hidden_budget_investments: Proyectos de gasto ocultos
       hidden_proposal_notifications: Notificationes de propuesta ocultas
-      hidden_users: Usuarios bloqueados
+      hidden_users: Usuarios/as bloqueados/as
       administrators: Administradores
-      managers: Gestores
-      moderators: Moderadores
-      messaging_users: Mensajes a usuarios
+      managers: Gestores/as
+      moderators: Moderadores/as
+      messaging_users: Mensajes a usuarios/as
       newsletters: Newsletters
       admin_notifications: Notificaciones
       system_emails: Emails del sistema
@@ -643,41 +643,41 @@ es:
       title_site_customization: Contenido del sitio
       title_booths: Urnas de votación
       legislation: Procesos
-      users: Usuarios
+      users: Usuarios/as
     administrators:
       index:
-        title: Administradores
+        title: Administradores/as
         name: Nombre
         email: Email
-        id: ID de Administrador
-        no_administrators: No hay administradores.
+        id: ID de Administrador/a
+        no_administrators: No hay administradores/as.
       administrator:
-        add: Añadir como Administrador
+        add: Añadir como Administrador/a
         delete: Borrar
         restricted_removal: "Lo sentimos, no puedes eliminarte a ti mismo de la lista"
       search:
-        title: "Administradores: Búsqueda de usuarios"
+        title: "Administradores/as: Búsqueda de usuarios/as"
     moderators:
       index:
-        title: Moderadores
+        title: Moderadores/as
         name: Nombre
         email: Email
-        no_moderators: No hay moderadores.
+        no_moderators: No hay moderadores/as.
       moderator:
-        add: Añadir como Moderador
+        add: Añadir como Moderador/a
         delete: Borrar
       search:
-        title: 'Moderadores: Búsqueda de usuarios'
+        title: 'Moderadores/as: Búsqueda de usuarios/as'
     segment_recipient:
-      all_users: Todos los usuarios
-      administrators: Administradores
-      proposal_authors: Usuarios autores de propuestas
-      investment_authors: Usuarios autores de proyectos de gasto en los actuales presupuestos
-      feasible_and_undecided_investment_authors: "Usuarios autores de algún proyecto de gasto en los actuales presupuestos que no cumpla: [evaluación finalizada inviable]"
-      selected_investment_authors: Usuarios autores de proyectos de gasto seleccionadas en los actuales presupuestos
-      winner_investment_authors: Usuarios autores de proyectos de gasto ganadoras en los actuales presupuestos
-      not_supported_on_current_budget: Usuarios que no han apoyado proyectos de los actuales presupuestos
-      invalid_recipients_segment: "El segmento de destinatarios es inválido"
+      all_users: Todos los/as usuarios/as
+      administrators: Administradores/as
+      proposal_authors: Usuarios/as autores/as de propuestas
+      investment_authors: Usuarios/as autores/as de proyectos de gasto en los actuales presupuestos
+      feasible_and_undecided_investment_authors: "Usuarios/as autores/as de algún proyecto de gasto en los actuales presupuestos que no cumpla: [evaluación finalizada inviable]"
+      selected_investment_authors: Usuarios/as autores/as de proyectos de gasto seleccionadas en los actuales presupuestos
+      winner_investment_authors: Usuarios/as autores/as de proyectos de gasto ganadoras en los actuales presupuestos
+      not_supported_on_current_budget: Usuarios/as que no han apoyado proyectos de los actuales presupuestos
+      invalid_recipients_segment: "El segmento de destinatarios/as es inválido"
     newsletters:
       create_success: Newsletter creada correctamente
       update_success: Newsletter actualizada correctamente
@@ -687,7 +687,7 @@ es:
         title: Envío de newsletters
         new_newsletter: Crear newsletter
         subject: Asunto
-        segment_recipient: Destinatarios
+        segment_recipient: Destinatarios/as
         sent: Enviado
         actions: Acciones
         draft: Borrador
@@ -703,7 +703,7 @@ es:
       show:
         title: Vista previa de newsletter
         send: Enviar
-        affected_users: (%{n} usuarios afectados)
+        affected_users: (%{n} usuarios/as afectados)
         sent_emails:
           one: 1 correo enviado
           other: "%{count} correos enviados"
@@ -712,8 +712,8 @@ es:
         segment_recipient: Destinatarios
         from: Dirección de correo electrónico que aparecerá como remitente de la newsletter
         body: Contenido del email
-        body_help_text: Así es como verán el email los usuarios
-        send_alert: '¿Estás seguro/a de que quieres enviar esta newsletter a %{n} usuarios?'
+        body_help_text: Así es como verán el email los/as usuarios/as
+        send_alert: '¿Estás seguro/a de que quieres enviar esta newsletter a %{n} usuarios/as?'
     admin_notifications:
       create_success: Notificación creada correctamente
       update_success: Notificación actualizada correctamente
@@ -723,7 +723,7 @@ es:
         section_title: Envío de notificaciones
         new_notification: Crear notificación
         title: Título
-        segment_recipient: Destinatarios
+        segment_recipient: Destinatarios/as
         sent: Enviado
         actions: Acciones
         draft: Borrador
@@ -741,16 +741,16 @@ es:
       show:
         section_title: Vista previa de notificación
         send: Enviar notificación
-        will_get_notified: (%{n} usuarios serán notificados)
-        got_notified: (%{n} usuarios fueron notificados)
+        will_get_notified: (%{n} usuarios/as serán notificados)
+        got_notified: (%{n} usuarios/as fueron notificados)
         sent_at: Enviado
         title: Título
         body: Texto
         link: Enlace
         segment_recipient: Destinatarios
-        preview_guide: "Así es como los usuarios verán la notificación:"
-        sent_guide: "Así es como los usuarios ven la notificación:"
-        send_alert: '¿Estás seguro/a de que quieres enviar esta notificación a %{n} usuarios?'
+        preview_guide: "Así es como los/as usuarios/as verán la notificación:"
+        sent_guide: "Así es como los/as usuarios/as ven la notificación:"
+        send_alert: '¿Estás seguro/a de que quieres enviar esta notificación a %{n} usuarios/as?'
     system_emails:
       preview_pending:
         action: Previsualizar pendientes
@@ -762,7 +762,7 @@ es:
       proposal_notification_digest:
         title: Resumen de Notificationes de Propuestas
         description: Reune todas las notificaciones de propuestas en un único mensaje, para evitar demasiados emails.
-        preview_detail: Los usuarios sólo recibirán las notificaciones de aquellas propuestas que siguen.
+        preview_detail: Los/as usuarios/as sólo recibirán las notificaciones de aquellas propuestas que siguen.
     emails_download:
       index:
         title: Descarga de emails
@@ -771,20 +771,20 @@ es:
         download_emails_button: Descargar lista de emails
     valuators:
       index:
-        title: Evaluadores
+        title: Evaluadores/as
         name: Nombre
         email: Email
         description: Descripción
         no_description: Sin descripción
-        no_valuators: No hay evaluadores.
-        valuator_groups: "Grupo de evaluadores"
+        no_valuators: No hay evaluadores/as.
+        valuator_groups: "Grupo de evaluadores/as"
         group: "Grupo"
         no_group: "Sin grupo"
       valuator:
         add: Añadir como evaluador
         delete: Borrar
       search:
-        title: 'Evaluadores: Búsqueda de usuarios'
+        title: 'Evaluadores/as: Búsqueda de usuarios/as'
       summary:
         title: Resumen de evaluación de proyectos de gasto
         valuator_name: Evaluador
@@ -809,39 +809,39 @@ es:
         title: "Grupos de evaluadores"
         new: "Crear grupo de evaluadores"
         name: "Nombre"
-        members: "Miembros"
+        members: "Miembros/as"
         no_groups: "No hay grupos de evaluadores"
       show:
         title: "Grupo de evaluadores: %{group}"
-        no_valuators: "No hay evaluadores asigandos a este grupo"
+        no_valuators: "No hay evaluadores/as asignados/as a este grupo"
       form:
         name: "Nombre del grupo"
-        new: "Crear grupo de evaluadores"
+        new: "Crear grupo de evaluadores/as"
         edit: "Guardar grupo de evaluadores"
     poll_officers:
       index:
-        title: Presidentes de mesa
+        title: Presidentes/as de mesa
       officer:
-        add: Añadir como Presidente de mesa
+        add: Añadir como Presidente/a de mesa
         delete: Eliminar cargo
         name: Nombre
         email: Email
-        entry_name: presidente de mesa
+        entry_name: presidente/a de mesa
       search:
-        email_placeholder: Buscar usuario por email
+        email_placeholder: Buscar usuario/a por email
         search: Buscar
-        user_not_found: Usuario no encontrado
+        user_not_found: Usuario/a no encontrado/a
     poll_officer_assignments:
       index:
         officers_title: "Listado de presidentes de mesa asignados"
-        no_officers: "No hay presidentes de mesa asignados a esta votación."
+        no_officers: "No hay presidentes/as de mesa asignados a esta votación."
         table_name: "Nombre"
         table_email: "Email"
       by_officer:
         date: "Fecha"
         booth: "Urna"
-        assignments: "Turnos como presidente de mesa en esta votación"
-        no_assignments: "No tiene turnos como presidente de mesa en esta votación."
+        assignments: "Turnos como presidente/a de mesa en esta votación"
+        no_assignments: "No tiene turnos como presidente/a de mesa en esta votación."
     poll_shifts:
       new:
         add_shift: "Añadir turno"
@@ -852,11 +852,11 @@ es:
         edit_shifts: Asignar turno
         new_shift: "Nuevo turno"
         no_shifts: "Esta urna no tiene turnos asignados"
-        officer: "Presidente de mesa"
+        officer: "Presidente/a de mesa"
         remove_shift: "Eliminar turno"
         search_officer_button: Buscar
-        search_officer_placeholder: Buscar presidentes de mesa
-        search_officer_text: Busca al presidente de mesa para asignar un turno
+        search_officer_placeholder: Buscar presidentes/as de mesa
+        search_officer_text: Busca al presidente/as de mesa para asignar un turno
         select_date: "Seleccionar día"
         no_voting_days: "Los días de votación han terminado"
         select_task: "Seleccionar tarea"
@@ -864,8 +864,8 @@ es:
         table_email: "Email"
         table_name: "Nombre"
       flash:
-        create: "Añadido turno de presidente de mesa"
-        destroy: "Eliminado turno de presidente de mesa"
+        create: "Añadido turno de presidente/as de mesa"
+        destroy: "Eliminado turno de presidente/as de mesa"
         unable_to_destroy: "No se pueden eliminar turnos que tienen resultados o recuentos asociados"
         date_missing: "Debe seleccionarse una fecha"
       vote_collection: Recoger Votos
@@ -891,14 +891,14 @@ es:
         error_create: "Se ha producido un error al intentar asignar la urna"
       show:
         location: "Ubicación"
-        officers: "Presidentes de mesa"
-        officers_list: "Lista de presidentes de mesa asignados a esta urna"
-        no_officers: "No hay presidentes de mesa para esta urna"
+        officers: "Presidentes/as de mesa"
+        officers_list: "Lista de presidentes/as de mesa asignados a esta urna"
+        no_officers: "No hay presidentes/as de mesa para esta urna"
         recounts: "Recuentos"
         recounts_list: "Lista de recuentos de esta urna"
         results: "Resultados"
         date: "Fecha"
-        count_final: "Recuento final (presidente de mesa)"
+        count_final: "Recuento final (presidente/a de mesa)"
         count_by_system: "Votos (automático)"
         total_system: Votos totales acumulados(automático)
       index:
@@ -921,7 +921,7 @@ es:
         show_results_and_stats: "Mostrar resultados y estadísticas"
         show_results: "Mostrar resultados"
         show_stats: "Mostrar estadísticas"
-        results_and_stats_reminder: "Si marcas estas casillas los resultados y/o estadísticas de esta votación serán públicos y podrán verlos todos los usuarios."
+        results_and_stats_reminder: "Si marcas estas casillas los resultados y/o estadísticas de esta votación serán públicos y podrán verlos todos los/as usuarios/as."
         submit_button: "Crear votación"
       edit:
         title: "Editar votación"
@@ -929,7 +929,7 @@ es:
       show:
         questions_tab: Preguntas
         booths_tab: Urnas
-        officers_tab: Presidentes de mesa
+        officers_tab: Presidentes/as de mesa
         recounts_tab: Recuentos
         results_tab: Resultados
         no_questions: "No hay preguntas asignadas a esta votación."
@@ -963,7 +963,7 @@ es:
           save_image: "Guardar imagen"
       show:
         proposal: Propuesta ciudadana original
-        author: Autor
+        author: Autor/a
         question: Pregunta
         edit_question: Editar pregunta
         valid_answers: Respuestas válidas
@@ -1006,7 +1006,7 @@ es:
         title: "Recuentos"
         no_recounts: "No hay nada de lo que hacer recuento"
         table_booth_name: "Urna"
-        table_total_recount: "Recuento total (presidente de mesa)"
+        table_total_recount: "Recuento total (presidente/a de mesa)"
         table_system_count: "Votos (automático)"
     results:
       index:
@@ -1047,9 +1047,9 @@ es:
     officials:
       edit:
         destroy: Eliminar condición de 'Cargo Público'
-        title: 'Cargos Públicos: Editar usuario'
+        title: 'Cargos Públicos: Editar usuario/a'
       flash:
-        official_destroyed: 'Datos guardados: el usuario ya no es cargo público'
+        official_destroyed: 'Datos guardados: el/la autor/a ya no es cargo público'
         official_updated: Datos del cargo público guardados
       index:
         title: Cargos Públicos
@@ -1066,7 +1066,7 @@ es:
       search:
         edit_official: Editar cargo público
         make_official: Convertir en cargo público
-        title: 'Cargos Públicos: Búsqueda de usuarios'
+        title: 'Cargos Públicos: Búsqueda de usuarios/as'
         no_results: No se han encontrado cargos públicos.
     organizations:
       index:
@@ -1077,8 +1077,8 @@ es:
           rejected: Rechazadas
           verified: Verificadas
         hidden_count_html:
-          one: Hay además <strong>una organización</strong> sin usuario o con el usuario bloqueado.
-          other: Hay <strong>%{count} organizaciones</strong> sin usuario o con el usuario bloqueado.
+          one: Hay además <strong>una organización</strong> sin usuario/a o con el/la autor/a bloqueado.
+          other: Hay <strong>%{count} organizaciones</strong> sin usuario/a o con el/la autor/a bloqueado.
         name: Nombre
         email: Email
         phone_number: Teléfono
@@ -1100,7 +1100,7 @@ es:
       index:
         title: Propuestas
         id: ID
-        author: Autor
+        author: Autor/a
         milestones: Hitos
         no_proposals: No hay propuestas.
     hidden_proposals:
@@ -1139,7 +1139,7 @@ es:
           disable: "Desactivar"
         map:
           title: Configuración del mapa
-          help: Aquí puedes personalizar la manera en la que se muestra el mapa a los usuarios. Arrastra el marcador o pulsa sobre cualquier parte del mapa, ajusta el zoom y pulsa el botón 'Actualizar'.
+          help: Aquí puedes personalizar la manera en la que se muestra el mapa a los/as usuarios/as. Arrastra el marcador o pulsa sobre cualquier parte del mapa, ajusta el zoom y pulsa el botón 'Actualizar'.
           flash:
             update: La configuración del mapa se ha guardado correctamente.
           form:
@@ -1158,7 +1158,7 @@ es:
         placeholder: Buscar urna por nombre
       poll_officers_search:
         button: Buscar
-        placeholder: Buscar presidentes de mesa
+        placeholder: Buscar presidentes/as de mesa
       poll_questions_search:
         button: Buscar
         placeholder: Buscar preguntas
@@ -1170,7 +1170,7 @@ es:
         placeholder: Buscar propuestas por título o descripción
       user_search:
         button: Buscar
-        placeholder: Buscar usuario por nombre o email
+        placeholder: Buscar usuario/a por nombre o email
       search_results: "Resultados de la búsqueda"
       no_search_results: "No se han encontrado resultados."
       actions: Acciones
@@ -1178,39 +1178,39 @@ es:
       description: Descripción
       image: Imagen
       show_image: Mostrar imagen
-      moderated_content: "Revisa el contenido moderado por los moderadores, y confirma si la moderación se ha realizado correctamente."
+      moderated_content: "Revisa el contenido moderado por los/as moderadores/as, y confirma si la moderación se ha realizado correctamente."
       view: Ver
       proposal: Propuesta
-      author: Autor
+      author: Autor/a
       content: Contenido
       created_at: Fecha de creación
       delete: Eliminar
     spending_proposals:
       index:
         geozone_filter_all: Todos los ámbitos de actuación
-        administrator_filter_all: Todos los administradores
-        valuator_filter_all: Todos los evaluadores
+        administrator_filter_all: Todos/as los/as administradores/as
+        valuator_filter_all: Todos/as los/as evaluadores/aas
         tags_filter_all: Todas las etiquetas
         filters:
           valuation_open: Abiertas
-          without_admin: Sin administrador
+          without_admin: Sin administrador/a
           managed: Gestionando
           valuating: En evaluación
           valuation_finished: Evaluación finalizada
           all: Todas
         title: Propuestas de inversión para democracia presupuestaria
-        assigned_admin: Administrador asignado
-        no_admin_assigned: Sin admin asignado
+        assigned_admin: Administrador/a asignado/a
+        no_admin_assigned: Sin/as administrador/as  asignado
         no_valuators_assigned: Sin evaluador
         summary_link: "Resumen de propuestas"
-        valuator_summary_link: "Resumen de evaluadores"
+        valuator_summary_link: "Resumen de evaluadores/as"
         feasibility:
           feasible: "Viable (%{price})"
           not_feasible: "Inviable"
           undefined: "Sin definir"
       show:
-        assigned_admin: Administrador asignado
-        assigned_valuators: Evaluadores asignados
+        assigned_admin: Administrador/a asignado/a
+        assigned_valuators: Evaluadores/as asignados/as
         back: Volver
         classification: Clasificación
         heading: "Propuesta de inversión %{id}"
@@ -1226,7 +1226,7 @@ es:
         undefined: Sin definir
       edit:
         classification: Clasificación
-        assigned_valuators: Evaluadores
+        assigned_valuators: Evaluadores/as
         submit_button: Actualizar
         tags: Etiquetas
         tags_placeholder: "Escribe las etiquetas que desees separadas por comas (,)"
@@ -1269,7 +1269,7 @@ es:
         success: Distrito borrado correctamente
         error: No se puede borrar el distrito porque ya tiene elementos asociados
     signature_sheets:
-      author: Autor
+      author: Autor/a
       created_at: Fecha de creación
       name: Nombre
       no_signature_sheets: "No existen hojas de firmas"
@@ -1282,7 +1282,7 @@ es:
         submit: Crear hoja de firmas
       show:
         created_at: Creado
-        author: Autor
+        author: Autor/a
         documents: Documentos
         document_count: "Número de documentos:"
         verified:
@@ -1306,12 +1306,12 @@ es:
           budgets: Presupuestos abiertos
           budget_investments: Proyectos de gasto
           spending_proposals: Propuestas de inversión
-          unverified_users: Usuarios sin verificar
-          user_level_three: Usuarios de nivel tres
-          user_level_two: Usuarios de nivel dos
-          users: Usuarios
-          verified_users: Usuarios verificados
-          verified_users_who_didnt_vote_proposals: Usuarios verificados que no han votado propuestas
+          unverified_users: Usuarios/as sin verificar
+          user_level_three: Usuarios/as de nivel tres
+          user_level_two: Usuarios/as de nivel dos
+          users: Usuarios/as
+          verified_users: Usuarios/a verificados/as
+          verified_users_who_didnt_vote_proposals: Usuarios/as verificados/as que no han votado propuestas
           visits: Visitas
           votes: Votos
         spending_proposals_title: Propuestas de inversión
@@ -1324,7 +1324,7 @@ es:
       direct_messages:
         title: Mensajes directos
         total: Total
-        users_who_have_sent_message: Usuarios que han enviado un mensaje privado
+        users_who_have_sent_message: Usuarios/as que han enviado un mensaje privado
       proposal_notifications:
         title: Notificaciones de propuestas
         total: Total
@@ -1360,9 +1360,9 @@ es:
         verification_level: Nivel de verficación
       index:
         title: Usuarios
-        no_users: No hay usuarios.
+        no_users: No hay usuarios/as.
       search:
-        placeholder: Buscar usuario por email, nombre o DNI
+        placeholder: Buscar usuario/as por email, nombre o DNI
         search: Buscar
     verifications:
       index:

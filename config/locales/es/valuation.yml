@@ -30,7 +30,7 @@ es:
         edit: Editar informe
         valuators_assigned:
           one: Evaluador asignado
-          other: "%{count} evaluadores asignados"
+          other: "%{count} evaluadores/as asignados/as"
         no_valuators_assigned: Sin evaluador
         table_id: ID
         table_title: Título
@@ -56,8 +56,8 @@ es:
         valuation_finished: Informe finalizado
         duration: Plazo de ejecución
         responsibles: Responsables
-        assigned_admin: Administrador asignado
-        assigned_valuators: Evaluadores asignados
+        assigned_admin: Administrador/a asignado/a
+        assigned_valuators: Evaluadores/as asignados/as
       edit:
         dossier: Informe
         price_html: "Coste (%{currency}) <small>(dato público)</small>"
@@ -107,8 +107,8 @@ es:
         time_scope: Plazo de ejecución
         internal_comments: Comentarios internos
         responsibles: Responsables
-        assigned_admin: Administrador asignado
-        assigned_valuators: Evaluadores asignados
+        assigned_admin: Administrador/a asignado/a
+        assigned_valuators: Evaluadores/as asignados/as
       edit:
         dossier: Informe
         price_html: "Coste (%{currency}) <small>(dato público)</small>"
