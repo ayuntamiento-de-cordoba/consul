@@ -2,7 +2,7 @@ es:
   account:
     show:
       change_credentials_link: Cambiar mis datos de acceso
-      email_on_comment_label: Recibir un email cuando alguien comenta en mis propuestas o debates
+      email_on_comment_label: Recibir un email cuando alguien comenta en mis iniciativas ciudadanas o debates
       email_on_comment_reply_label: Recibir un email cuando alguien contesta a mis comentarios
       erase_account_link: Darme de baja
       finish_verification: Finalizar verificación
@@ -18,16 +18,16 @@ es:
       save_changes_submit: Guardar cambios
       subscription_to_website_newsletter_label: Recibir emails con información interesante sobre la web
       email_on_direct_message_label: Recibir emails con mensajes privados
-      email_digest_label: Recibir resumen de notificaciones sobre propuestas
+      email_digest_label: Recibir resumen de notificaciones sobre iniciativas ciudadanas
       official_position_badge_label: Mostrar etiqueta de tipo de usuario/a
       recommendations: Recomendaciones
       show_debates_recommendations: Mostrar recomendaciones en el listado de debates
-      show_proposals_recommendations: Mostrar recomendaciones en el listado de propuestas
+      show_proposals_recommendations: Mostrar recomendaciones en el listado de iniciativas ciudadanas
       title: Mi cuenta
       user_permission_debates: Participar en debates
       user_permission_info: Con tu cuenta ya puedes...
-      user_permission_proposal: Crear nuevas propuestas
-      user_permission_support_proposal: Apoyar propuestas*
+      user_permission_proposal: Crear nuevas iniciativas ciudadanas
+      user_permission_support_proposal: Apoyar iniciativas ciudadanas*
       user_permission_title: Participación
       user_permission_verify: Para poder realizar todas las acciones, verifica tu cuenta.
       user_permission_verify_info: "* Sólo usuarios/a empadronados/as."
@@ -112,7 +112,7 @@ es:
         recommendations: Recomendaciones
       recommendations:
         without_results: No existen debates relacionados con tus intereses
-        without_interests: Sigue propuestas para que podamos darte recomendaciones
+        without_interests: Sigue iniciativas ciudadanas para que podamos darte recomendaciones
         disable: "Si ocultas las recomendaciones para debates, no se volverán a mostrar. Puedes volver a activarlas en 'Mi cuenta'"
         actions:
           success: "Las recomendaciones de debates han sido desactivadas"
@@ -231,10 +231,10 @@ es:
       my_activity_link: Mi actividad
       open: abierto
       open_gov: Gobierno %{open}
-      proposals: Propuestas
+      proposals: Iniciativas ciudadanas
       poll_questions: Votaciones
       budgets: Democracia presupuestaria
-      spending_proposals: Propuestas de inversión
+      spending_proposals: Iniciativas ciudadanas de inversión
       notification_item:
         new_notifications:
           one: Tienes una nueva notificación
@@ -325,7 +325,7 @@ es:
       proposal_video_url: Enlace a vídeo externo
       proposal_video_url_note: Puedes añadir un enlace a YouTube o Vimeo
       tag_category_label: "Categorías"
-      tags_instructions: "Etiqueta esta propuesta. Puedes elegir entre las categorías propuestas o introducir las que desees"
+      tags_instructions: "Etiqueta esta propuesta. Puedes elegir entre las categorías iniciativas ciudadanas o introducir las que desees"
       tags_label: Etiquetas
       tags_placeholder: "Escribe las etiquetas que desees separadas por coma (',')"
       map_location: "Ubicación en el mapa"
@@ -346,14 +346,14 @@ es:
         archival_date: Archivadas
         recommendations: Recomendaciones
       recommendations:
-        without_results: No existen propuestas relacionadas con tus intereses
-        without_interests: Sigue propuestas para que podamos darte recomendaciones
-        disable: "Si ocultas las recomendaciones para propuestas, no se volverán a mostrar. Puedes volver a activarlas en 'Mi cuenta'"
+        without_results: No existen iniciativas ciudadanas relacionadas con tus intereses
+        without_interests: Sigue iniciativas ciudadanas para que podamos darte recomendaciones
+        disable: "Si ocultas las recomendaciones para iniciativas ciudadanas, no se volverán a mostrar. Puedes volver a activarlas en 'Mi cuenta'"
         actions:
-          success: "Las recomendaciones de propuestas han sido desactivadas"
+          success: "Las recomendaciones de iniciativas ciudadanas han sido desactivadas"
           error: "Ha ocurrido un error. Por favor dirígete al apartado 'Mi cuenta' para desactivar las recomendaciones manualmente"
-      retired_proposals: Propuestas retiradas
-      retired_proposals_link: "Propuestas retiradas por sus autores"
+      retired_proposals: Iniciativas ciudadanas retiradas
+      retired_proposals_link: "Iniciativas ciudadanas retiradas por sus autores"
       retired_links:
         all: Todas
         duplicated: Duplicadas
@@ -363,28 +363,28 @@ es:
         other: Otras
       search_form:
         button: Buscar
-        placeholder: Buscar propuestas...
+        placeholder: Buscar iniciativas ciudadanas...
         title: Buscar
       search_results_html:
         one: " que contiene <strong>'%{search_term}'</strong>"
         other: " que contienen <strong>'%{search_term}'</strong>"
       select_order: Ordenar por
-      select_order_long: 'Estas viendo las propuestas'
+      select_order_long: 'Estas viendo las iniciativas ciudadanas'
       start_proposal: Crea una propuesta
-      title: Propuestas ciudadanas
+      title: Iniciativas ciudadanas ciudadanas
       top: Top semanal
-      top_link_proposals: Propuestas más apoyadas por categoría
+      top_link_proposals: Iniciativas ciudadanas más apoyadas por categoría
       section_header:
-        icon_alt: Icono de Propuestas
-        title: Propuestas
-        help: Ayuda sobre las propuestas
+        icon_alt: Icono de Iniciativas ciudadanas
+        title: Iniciativas ciudadanas
+        help: Ayuda sobre las iniciativas ciudadanas
       section_footer:
-        title: Ayuda sobre las propuestas
-        description: Las propuestas ciudadanas son una oportunidad para que los/as vecinos/as y colectivos decidan directamente cómo quieren que sea su ciudad, después de conseguir los apoyos suficientes y de someterse a votación ciudadana.
+        title: Ayuda sobre las iniciativas ciudadanas
+        description: Las iniciativas ciudadanas ciudadanas son una oportunidad para que los/as vecinos/as y colectivos decidan directamente cómo quieren que sea su ciudad, después de conseguir los apoyos suficientes y de someterse a votación ciudadana.
     new:
       form:
         submit_button: Crear propuesta
-      more_info: '¿Cómo funcionan las propuestas ciudadanas?'
+      more_info: '¿Cómo funcionan las iniciativas ciudadanas ciudadanas?'
       recommendation_one: No escribas el título de la propuesta o frases enteras en mayúsculas. En internet eso se considera gritar. Y a nadie le gusta que le griten.
       recommendation_three: Disfruta de este espacio, de las voces que lo llenan, también es tuyo.
       recommendation_two: Cualquier propuesta o comentario que implique una acción ilegal será eliminada, también las que tengan la intención de sabotear los espacios de propuesta, todo lo demás está permitido.
@@ -522,7 +522,7 @@ es:
       title_label: "Título"
       body_label: "Mensaje"
       submit_button: "Enviar mensaje"
-      info_about_receivers_html: "Este mensaje se enviará a <strong>%{count} usuarios/as</strong> y se publicará en %{proposal_page}.<br> El mensaje no se enviará inmediatamente, los/as usuarios/as recibirán periódicamente un email con todas las notificaciones de propuestas."
+      info_about_receivers_html: "Este mensaje se enviará a <strong>%{count} usuarios/as</strong> y se publicará en %{proposal_page}.<br> El mensaje no se enviará inmediatamente, los/as usuarios/as recibirán periódicamente un email con todas las notificaciones de iniciativas ciudadanas."
       proposal_page: "la página de la propuesta"
     show:
       back: "Volver a mi actividad"
@@ -593,8 +593,8 @@ es:
       proposal:
         found:
           one: "Existe una propuesta con el término '%{query}', puedes participar en ella en vez de abrir uno nuevo."
-          other: "Existen propuestas con el término '%{query}', puedes participar en ellas en vez de abrir uno nuevo."
-        message: "Estás viendo %{limit} de %{count} propuestas que contienen el término '%{query}'"
+          other: "Existen iniciativas ciudadanas con el término '%{query}', puedes participar en ellas en vez de abrir uno nuevo."
+        message: "Estás viendo %{limit} de %{count} iniciativas ciudadanas que contienen el término '%{query}'"
         see_all: "Ver todas"
     tags_cloud:
       tags: Tendencias
@@ -643,11 +643,11 @@ es:
       title: Título de la propuesta de gasto
     index:
       title: Democracia presupuestaria
-      unfeasible: Propuestas de inversión no viables
-      by_geozone: "Propuestas de inversión con ámbito: %{geozone}"
+      unfeasible: Iniciativas ciudadanas de inversión no viables
+      by_geozone: "Iniciativas ciudadanas de inversión con ámbito: %{geozone}"
       search_form:
         button: Buscar
-        placeholder: Propuestas de inversión...
+        placeholder: Iniciativas ciudadanas de inversión...
         title: Buscar
       search_results:
         one: " que contiene '%{search_term}'"
@@ -682,9 +682,9 @@ es:
     index:
       visits: Visitas
       debates: Debates
-      proposals: Propuestas ciudadanas
+      proposals: Iniciativas ciudadanas ciudadanas
       comments: Comentarios
-      proposal_votes: Votos en propuestas
+      proposal_votes: Votos en iniciativas ciudadanas
       debate_votes: Votos en debates
       comment_votes: Votos en comentarios
       votes: Votos
@@ -714,7 +714,7 @@ es:
       deleted_debate: Este debate ha sido eliminado
       deleted_proposal: Esta propuesta ha sido eliminada
       deleted_budget_investment: Este proyecto de gasto ha sido eliminado
-      proposals: Propuestas
+      proposals: Iniciativas ciudadanas
       debates: Debates
       budget_investments: Proyectos de democracia presupuestaria
       comments: Comentarios
@@ -728,7 +728,7 @@ es:
           other: "%{count} Debates"
         proposals:
           one: 1 Propuesta
-          other: "%{count} Propuestas"
+          other: "%{count} Iniciativas ciudadanas"
         budget_investments:
           one: 1 Proyecto de democracia presupuestaria
           other: "%{count} Proyectos de democracia presupuestaria"
@@ -755,19 +755,19 @@ es:
     signup: registrarte
     supports: Apoyos
     unauthenticated: Necesitas %{signin} o %{signup} para continuar.
-    verified_only: Las propuestas sólo pueden ser votadas por usuarios/as verificados/as, %{verify_account}.
+    verified_only: Las iniciativas ciudadanas sólo pueden ser votadas por usuarios/as verificados/as, %{verify_account}.
     verify_account: verifica tu cuenta
     spending_proposals:
       not_logged_in: Necesitas %{signin} o %{signup} para continuar.
-      not_verified: Las propuestas de inversión sólo pueden ser apoyadas por usuarios/as verificados/as, %{verify_account}.
+      not_verified: Las iniciativas ciudadanas de inversión sólo pueden ser apoyadas por usuarios/as verificados/as, %{verify_account}.
       organization: Las organizaciones no pueden votar.
-      unfeasible: No se pueden votar propuestas inviables.
+      unfeasible: No se pueden votar iniciativas ciudadanas inviables.
       not_voting_allowed: El periodo de votación está cerrado.
     budget_investments:
       not_logged_in: Necesitas %{signin} o %{signup} para continuar.
       not_verified: Los proyectos de gasto sólo pueden ser apoyadas por usuarios/as verificados/as, %{verify_account}.
       organization: Las organizaciones no pueden votar.
-      unfeasible: No se pueden votar propuestas inviables.
+      unfeasible: No se pueden votar iniciativas ciudadanas inviables.
       not_voting_allowed: El periodo de votación está cerrado.
       different_heading_assigned:
         one: "Sólo puedes apoyar proyectos de gasto de %{count} distrito. Ya has apoyado en %{supported_headings}."
@@ -776,10 +776,10 @@ es:
     feed:
       most_active:
         debates: "Debates más activos"
-        proposals: "Propuestas más activas"
+        proposals: "Iniciativas ciudadanas más activas"
         processes: "Procesos abiertos"
       see_all_debates: Ver todos los debates
-      see_all_proposals: Ver todas las propuestas
+      see_all_proposals: Ver todas las iniciativas ciudadanas
       see_all_processes: Ver todos los procesos
       process_label: Proceso
       see_process: Ver proceso
@@ -787,13 +787,13 @@ es:
       title: Destacados
     recommended:
       title: Recomendaciones que te pueden interesar
-      help: "Estas recomendaciones se generan por las etiquetas de los debates y propuestas que estás siguiendo."
+      help: "Estas recomendaciones se generan por las etiquetas de los debates y iniciativas ciudadanas que estás siguiendo."
       debates:
         title: Debates recomendados
         btn_text_link: Todos los debates recomendados
       proposals:
-        title: Propuestas recomendadas
-        btn_text_link: Todas las propuestas recomendadas
+        title: Iniciativas ciudadanas recomendadas
+        btn_text_link: Todas las iniciativas ciudadanas recomendadas
       budget_investments:
         title: Presupuestos recomendados
       slide: "Ver %{title}"
@@ -803,12 +803,12 @@ es:
       question: '¿Tienes ya una cuenta en %{org_name}?'
       title: Verificación de cuenta
     welcome:
-      go_to_index: Ahora no, ver propuestas
+      go_to_index: Ahora no, ver iniciativas ciudadanas
       title: Empieza a participar
       user_permission_debates: Participar en debates
       user_permission_info: Con tu cuenta ya puedes...
-      user_permission_proposal: Crear nuevas propuestas
-      user_permission_support_proposal: Apoyar propuestas*
+      user_permission_proposal: Crear nuevas iniciativas ciudadanas
+      user_permission_support_proposal: Apoyar iniciativas ciudadanas*
       user_permission_verify: Para poder realizar todas las acciones, verifica tu cuenta.
       user_permission_verify_info: "* Sólo usuarios/as empadronados/as."
       user_permission_verify_my_account: Verificar mi cuenta

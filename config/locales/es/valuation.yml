@@ -5,7 +5,7 @@ es:
     menu:
       title: Evaluación
       budgets: Democracia presupuestaria
-      spending_proposals: Propuestas de inversión
+      spending_proposals: Iniciativas ciudadanas de inversión
     budgets:
       index:
         title: Democracia presupuestaria
@@ -84,7 +84,7 @@ es:
           valuation_open: Abiertas
           valuating: En evaluación
           valuation_finished: Evaluación finalizada
-        title: Propuestas de inversión para democracia presupuestaria
+        title: Iniciativas ciudadanas de inversión para democracia presupuestaria
         edit: Editar
       show:
         back: Volver

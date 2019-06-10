@@ -63,7 +63,7 @@ es:
         other: "presidentes/as de mesa"
       proposal:
         one: "Propuesta ciudadana"
-        other: "Propuestas ciudadanas"
+        other: "Iniciativas ciudadanas ciudadanas"
       spending_proposal:
         one: "Propuesta de inversión"
         other: "Proyectos de gasto"
@@ -81,7 +81,7 @@ es:
         other: "Procesos"
       legislation/proposal:
         one: "Propuesta"
-        other: "Propuestas"
+        other: "Iniciativas ciudadanas"
       legislation/draft_versions:
         one: "Versión del borrador"
         other: "Versiones del borrador"

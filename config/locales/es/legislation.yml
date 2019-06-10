@@ -51,7 +51,7 @@ es:
         description: En qué consiste
         more_info: Más información y contexto
       proposals:
-        empty_proposals: No hay propuestas
+        empty_proposals: No hay iniciativas ciudadanas
         filters:
           random: Aleatorias
           winners: Seleccionadas
@@ -87,7 +87,7 @@ es:
         allegations_dates: Comentarios
         result_publication_date: Publicación resultados
         milestones_date: Seguimiento
-        proposals_dates: Propuestas
+        proposals_dates: Iniciativas ciudadanas
     questions:
       comments:
         comment_button: Publicar respuesta
@@ -122,4 +122,4 @@ es:
     proposals:
       form:
         tags_label: "Categorías"
-      not_verified: "Para votar propuestas %{verify_account}."
+      not_verified: "Para votar iniciativas ciudadanas %{verify_account}."

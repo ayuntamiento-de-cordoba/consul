@@ -35,7 +35,7 @@ es:
         sections:
           homepage: Homepage
           debates: Debates
-          proposals: Propuestas
+          proposals: Iniciativas ciudadanas
           budgets: Democracia presupuestaria
           help_page: Página de ayuda
         background_color: Color de fondo
@@ -65,7 +65,7 @@ es:
           all: Todos/as
           on_comments: Comentarios
           on_debates: Debates
-          on_proposals: Propuestas
+          on_proposals: Iniciativas ciudadanas
           on_users: Usuarios/as
           on_system_emails: Emails del sistema
         title: Actividad de moderadores/as
@@ -225,7 +225,7 @@ es:
           visible_to_valuators: Mostrar a evaluadores/as
           author_username: Usuario/a autor/a
           incompatible: Incompatible
-        cannot_calculate_winners: El presupuesto debe estar en las fases "Votación final", "Votación finalizada" o "Resultados" para poder calcular las propuestas ganadoras
+        cannot_calculate_winners: El presupuesto debe estar en las fases "Votación final", "Votación finalizada" o "Resultados" para poder calcular las iniciativas ciudadanas ganadoras
         see_results: "Ver resultados"
       show:
         assigned_admin: Administrador/a asignado/a
@@ -422,7 +422,7 @@ es:
           draft_phase: Fase de borrador
           draft_phase_description: Si esta fase está activa, el proceso no aparecerá en la página de procesos. Permite previsualizar el proceso y crear contenido antes del inicio.
           allegations_phase: Fase de comentarios
-          proposals_phase: Fase de propuestas
+          proposals_phase: Fase de iniciativas ciudadanas
           start: Inicio
           end: Fin
           use_markdown: Usa Markdown para formatear el texto
@@ -465,7 +465,7 @@ es:
           homepage: Homepage
           draft_versions: Redacción
           questions: Debate
-          proposals: Propuestas
+          proposals: Iniciativas ciudadanas
           milestones: Seguimiento
       homepage:
         edit:
@@ -586,13 +586,13 @@ es:
       admin: Menú de administración
       banner: Gestionar banners
       poll_questions: Preguntas
-      proposals: Propuestas
-      proposals_topics: Temas de propuestas
+      proposals: Iniciativas ciudadanas
+      proposals_topics: Temas de iniciativas ciudadanas
       budgets: Democracia presupuestaria
       geozones: Gestionar distritos
       hidden_comments: Comentarios ocultos
       hidden_debates: Debates ocultos
-      hidden_proposals: Propuestas ocultas
+      hidden_proposals: Iniciativas ciudadanas ocultas
       hidden_budget_investments: Proyectos de gasto ocultos
       hidden_proposal_notifications: Notificationes de propuesta ocultas
       hidden_users: Usuarios/as bloqueados/as
@@ -613,7 +613,7 @@ es:
       officials: Cargos públicos
       organizations: Organizaciones
       settings: Configuración global
-      spending_proposals: Propuestas de inversión
+      spending_proposals: Iniciativas ciudadanas de inversión
       stats: Estadísticas
       signature_sheets: Hojas de firmas
       site_customization:
@@ -625,7 +625,7 @@ es:
         information_texts_menu:
           debates: "Debates"
           community: "Comunidad"
-          proposals: "Propuestas"
+          proposals: "Iniciativas ciudadanas"
           polls: "Votaciones"
           layouts: "Plantillas"
           mailers: "Correos"
@@ -671,7 +671,7 @@ es:
     segment_recipient:
       all_users: Todos los/as usuarios/as
       administrators: Administradores/as
-      proposal_authors: Usuarios/as autores/as de propuestas
+      proposal_authors: Usuarios/as autores/as de iniciativas ciudadanas
       investment_authors: Usuarios/as autores/as de proyectos de gasto en los actuales presupuestos
       feasible_and_undecided_investment_authors: "Usuarios/as autores/as de algún proyecto de gasto en los actuales presupuestos que no cumpla: [evaluación finalizada inviable]"
       selected_investment_authors: Usuarios/as autores/as de proyectos de gasto seleccionadas en los actuales presupuestos
@@ -760,9 +760,9 @@ es:
         send_pending: Enviar pendientes
         send_pending_notification: Notificaciones pendientes enviadas correctamente
       proposal_notification_digest:
-        title: Resumen de Notificationes de Propuestas
-        description: Reune todas las notificaciones de propuestas en un único mensaje, para evitar demasiados emails.
-        preview_detail: Los/as usuarios/as sólo recibirán las notificaciones de aquellas propuestas que siguen.
+        title: Resumen de Notificationes de Iniciativas ciudadanas
+        description: Reune todas las notificaciones de iniciativas ciudadanas en un único mensaje, para evitar demasiados emails.
+        preview_detail: Los/as usuarios/as sólo recibirán las notificaciones de aquellas iniciativas ciudadanas que siguen.
     emails_download:
       index:
         title: Descarga de emails
@@ -946,7 +946,7 @@ es:
         filter_poll: Filtrar por votación
         select_poll: Seleccionar votación
         questions_tab: "Preguntas"
-        successful_proposals_tab: "Propuestas que han superado el umbral"
+        successful_proposals_tab: "Iniciativas ciudadanas que han superado el umbral"
         create_question: "Crear pregunta para votación"
         table_proposal: "Propuesta"
         table_question: "Pregunta"
@@ -1098,11 +1098,11 @@ es:
         no_results: No se han encontrado organizaciones.
     proposals:
       index:
-        title: Propuestas
+        title: Iniciativas ciudadanas
         id: ID
         author: Autor/a
         milestones: Hitos
-        no_proposals: No hay propuestas.
+        no_proposals: No hay iniciativas ciudadanas.
     hidden_proposals:
       index:
         filter: Filtro
@@ -1110,8 +1110,8 @@ es:
           all: Todas
           with_confirmed_hide: Confirmadas
           without_confirmed_hide: Pendientes
-        title: Propuestas ocultas
-        no_hidden_proposals: No hay propuestas ocultas.
+        title: Iniciativas ciudadanas ocultas
+        no_hidden_proposals: No hay iniciativas ciudadanas ocultas.
     proposal_notifications:
       index:
         filter: Filtro
@@ -1164,10 +1164,10 @@ es:
         placeholder: Buscar preguntas
       proposal_search:
         button: Buscar
-        placeholder: Buscar propuestas por título, código, descripción o pregunta
+        placeholder: Buscar iniciativas ciudadanas por título, código, descripción o pregunta
       spending_proposal_search:
         button: Buscar
-        placeholder: Buscar propuestas por título o descripción
+        placeholder: Buscar iniciativas ciudadanas por título o descripción
       user_search:
         button: Buscar
         placeholder: Buscar usuario/a por nombre o email
@@ -1198,11 +1198,11 @@ es:
           valuating: En evaluación
           valuation_finished: Evaluación finalizada
           all: Todas
-        title: Propuestas de inversión para democracia presupuestaria
+        title: Iniciativas ciudadanas de inversión para democracia presupuestaria
         assigned_admin: Administrador/a asignado/a
         no_admin_assigned: Sin/as administrador/as  asignado
         no_valuators_assigned: Sin evaluador
-        summary_link: "Resumen de propuestas"
+        summary_link: "Resumen de iniciativas ciudadanas"
         valuator_summary_link: "Resumen de evaluadores/as"
         feasibility:
           feasible: "Viable (%{price})"
@@ -1232,8 +1232,8 @@ es:
         tags_placeholder: "Escribe las etiquetas que desees separadas por comas (,)"
         undefined: Sin definir
       summary:
-        title: Resumen de propuestas de inversión
-        title_proposals_with_supports: Resumen para propuestas que han superado la fase de apoyos
+        title: Resumen de iniciativas ciudadanas de inversión
+        title_proposals_with_supports: Resumen para iniciativas ciudadanas que han superado la fase de apoyos
         geozone_name: Ámbito de ciudad
         finished_and_feasible_count: Finalizadas viables
         finished_and_unfeasible_count: Finalizadas inviables
@@ -1301,24 +1301,24 @@ es:
           comments: Comentarios
           debate_votes: Votos en debates
           debates: Debates
-          proposal_votes: Votos en propuestas
-          proposals: Propuestas
+          proposal_votes: Votos en iniciativas ciudadanas
+          proposals: Iniciativas ciudadanas
           budgets: Presupuestos abiertos
           budget_investments: Proyectos de gasto
-          spending_proposals: Propuestas de inversión
+          spending_proposals: Iniciativas ciudadanas de inversión
           unverified_users: Usuarios/as sin verificar
           user_level_three: Usuarios/as de nivel tres
           user_level_two: Usuarios/as de nivel dos
           users: Usuarios/as
           verified_users: Usuarios/a verificados/as
-          verified_users_who_didnt_vote_proposals: Usuarios/as verificados/as que no han votado propuestas
+          verified_users_who_didnt_vote_proposals: Usuarios/as verificados/as que no han votado iniciativas ciudadanas
           visits: Visitas
           votes: Votos
-        spending_proposals_title: Propuestas de inversión
+        spending_proposals_title: Iniciativas ciudadanas de inversión
         budgets_title: Democracia presupuestaria
         visits_title: Visitas
         direct_messages: Mensajes directos
-        proposal_notifications: Notificaciones de propuestas
+        proposal_notifications: Notificaciones de iniciativas ciudadanas
         incomplete_verifications: Verificaciones incompletas
         polls: Votaciones
       direct_messages:
@@ -1326,9 +1326,9 @@ es:
         total: Total
         users_who_have_sent_message: Usuarios/as que han enviado un mensaje privado
       proposal_notifications:
-        title: Notificaciones de propuestas
+        title: Notificaciones de iniciativas ciudadanas
         total: Total
-        proposals_with_notifications: Propuestas con notificaciones
+        proposals_with_notifications: Iniciativas ciudadanas con notificaciones
         not_available: "Esta propuesta ya no está disponible"
       polls:
         title: Estadísticas de votaciones
@@ -1477,7 +1477,7 @@ es:
         link_text: Texto del enlace
         link_url: URL del enlace
       feeds:
-        proposals: Propuestas
+        proposals: Iniciativas ciudadanas
         debates: Debates
         processes: Procesos
       new:

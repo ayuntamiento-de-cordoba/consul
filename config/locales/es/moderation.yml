@@ -47,8 +47,8 @@ es:
       flagged_comments: Comentarios
       flagged_debates: Debates
       flagged_investments: Proyectos de gasto
-      proposals: Propuestas
-      proposal_notifications: Notificaciones de propuestas
+      proposals: Iniciativas ciudadanas
+      proposal_notifications: Notificaciones de iniciativas ciudadanas
       users: Bloquear usuarios
     proposals:
       index:
@@ -62,13 +62,13 @@ es:
         headers:
           moderate: Moderar
           proposal: Propuesta
-        hide_proposals: Ocultar Propuestas
+        hide_proposals: Ocultar Iniciativas ciudadanas
         ignore_flags: Marcar como revisadas
         order: Ordenar por
         orders:
           created_at: Más recientes
           flags: Más denunciadas
-        title: Propuestas
+        title: Iniciativas ciudadanas
     budget_investments:
       index:
         block_authors: Bloquear autores/as
@@ -106,7 +106,7 @@ es:
         orders:
           created_at: Más recientes
           moderated: Moderadas
-        title: Notificaciones de propuestas
+        title: Notificaciones de iniciativas ciudadanas
     users:
       index:
         hidden: Bloqueado/a

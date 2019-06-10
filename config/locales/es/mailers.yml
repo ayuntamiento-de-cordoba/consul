@@ -28,11 +28,11 @@ es:
       sorry: "Sentimos las molestias ocasionadas y volvemos a darte las gracias por tu inestimable participación."
       subject: "Tu propuesta de inversión '%{code}' ha sido marcada como inviable"
     proposal_notification_digest:
-      info: "A continuación te mostramos las nuevas notificaciones que han publicado los/as autores/as de las propuestas que estás apoyando en %{org_name}."
-      title: "Notificaciones de propuestas en %{org_name}"
+      info: "A continuación te mostramos las nuevas notificaciones que han publicado los/as autores/as de las iniciativas ciudadanas que estás apoyando en %{org_name}."
+      title: "Notificaciones de iniciativas ciudadanas en %{org_name}"
       share: Compartir propuesta
       comment: Comentar propuesta
-      unsubscribe: "Si no quieres recibir notificaciones de propuestas, puedes entrar en %{account} y desmarcar la opción 'Recibir resumen de notificaciones sobre propuestas'."
+      unsubscribe: "Si no quieres recibir notificaciones de iniciativas ciudadanas, puedes entrar en %{account} y desmarcar la opción 'Recibir resumen de notificaciones sobre iniciativas ciudadanas'."
       unsubscribe_account: Mi cuenta
     direct_message_for_receiver:
       subject: "Has recibido un nuevo mensaje privado"

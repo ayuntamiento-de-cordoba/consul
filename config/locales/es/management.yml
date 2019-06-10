@@ -60,8 +60,8 @@ es:
       send_email: Enviar email de verificación
     menu:
       create_proposal: Crear propuesta
-      print_proposals: Imprimir propuestas
-      support_proposals: Apoyar propuestas
+      print_proposals: Imprimir iniciativas ciudadanas
+      support_proposals: Apoyar iniciativas ciudadanas
       create_spending_proposal: Crear una propuesta de gasto
       print_spending_proposals: Imprimir propts. de inversión
       support_spending_proposals: Apoyar propts. de inversión
@@ -72,13 +72,13 @@ es:
       user_invites: Enviar invitaciones
       select_user: Seleccionar usuario/a
     permissions:
-      create_proposals: Crear nuevas propuestas
+      create_proposals: Crear nuevas iniciativas ciudadanas
       debates: Participar en debates
-      support_proposals: Apoyar propuestas
+      support_proposals: Apoyar iniciativas ciudadanas
       vote_proposals: Participar en las votaciones finales
     print:
       proposals_info: Haz tu propuesta en http://url.consul
-      proposals_title: 'Propuestas:'
+      proposals_title: 'Iniciativas ciudadanas:'
       spending_proposals_info: Participa en http://url.consul
       budget_investments_info: Participa en http://url.consul
     print_info: Imprimir esta información
@@ -89,7 +89,7 @@ es:
       print:
         print_button: Imprimir
       index:
-        title: Apoyar propuestas
+        title: Apoyar iniciativas ciudadanas
     budgets:
       create_new_investment: Crear proyectos de gasto
       print_investments: Imprimir proyectos de gasto
@@ -115,8 +115,8 @@ es:
         unverified_user: Usuario/a no verificado
       create: Crear una propuesta de gasto
       filters:
-        unfeasible: Propuestas de inversión no viables
-        by_geozone: "Propuestas de inversión con ámbito: %{geozone}"
+        unfeasible: Iniciativas ciudadanas de inversión no viables
+        by_geozone: "Iniciativas ciudadanas de inversión con ámbito: %{geozone}"
       print:
         print_button: Imprimir
       search_results:

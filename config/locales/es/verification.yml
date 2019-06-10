@@ -22,13 +22,13 @@ es:
           offices: Oficinas de Atención Ciudadana
           success_html: Antes de las votaciones recibirás una carta con las instrucciones para verificar tu cuenta.<br> Recuerda que puedes ahorrar el envío verificándote presencialmente en cualquiera de las %{offices}.
       edit:
-        see_all: Ver propuestas
+        see_all: Ver iniciativas ciudadanas
         title: Carta solicitada
       errors:
         incorrect_code: Código de verificación incorrecto
       new:
         explanation: 'Para participar en las votaciones finales puedes:'
-        go_to_index: Ver propuestas
+        go_to_index: Ver iniciativas ciudadanas
         office: Verificarte presencialmente en cualquier %{office}
         offices: Oficina de Atención Ciudadana
         send_letter: Solicitar una carta por correo postal
@@ -97,8 +97,8 @@ es:
     step_3: Verificación final
     user_permission_debates: Participar en debates
     user_permission_info: Al verificar tus datos podrás...
-    user_permission_proposal: Crear nuevas propuestas
-    user_permission_support_proposal: Apoyar propuestas
+    user_permission_proposal: Crear nuevas iniciativas ciudadanas
+    user_permission_support_proposal: Apoyar iniciativas ciudadanas
     user_permission_votes: Participar en las votaciones finales*
     verified_user:
       form:
